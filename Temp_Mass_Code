@@ -1,0 +1,1751 @@
+다음은 원본 내용을 유지하면서 마크다운 형식으로 변환한 문서입니다:
+
+# MSC 109/WP.8
+## Annex 1, page 4
+
+---
+
+# PART 1 INTRODUCTION
+
+## CHAPTER 1 PURPOSE, PRINCIPLES AND OBJECTIVES
+
+### 1.1 Purpose
+
+The purpose of this Code is to provide an international regulatory framework to address remote or autonomous operation of key functions and systems and ensure safe, secure, and environmentally sound operation of Maritime Autonomous Surface Ships (MASS). The Code further aims to support the adoption and integration of new technology for ship operations and provide for consistency of approach to the design, build and operation of MASS.
+
+### 1.2 Principles
+
+This Code is developed on the principles that it be:
+
+(a) supplementary to any other applied instruments, such as SOLAS, and only address MASS operations and functions as far as they are not adequately or fully addressed in the other applied instruments;
+
+(b) holistic to ensure the objectives, aims and principles of the other applied instruments are maintained while also enabling the MASS operations and functions to be addressed across all instruments;
+
+(c) goal-based and addressing matters at the functional level;
+
+(d) non-mandatory although developed in such a way as to facilitate future transition to mandatory status; and
+
+(e) technology neutral, acknowledging industry practices and experience in the deployment of new technologies.
+
+### 1.3 Objectives
+
+In achieving its Purpose, this Code is intended to:
+
+(a) ensure standards of an acceptable level for design, construction, and operation and levels of safety and security expected of a conventional ship;
+
+(b) enable all ships to safely coexist without impeding or negatively impacting each other, regardless of whether MASS operations or functions are remotely or autonomously operated;
+
+(c) allow for the application of solutions that are demonstrably safe, secure, and environmentally sound in performing the designated MASS operations or functions under all defined conditions;
+
+(d) avoid the unintended placement of regulatory barriers to new or novel application of remote control or autonomous technology on ships;
+
+(e) require human oversight and control of MASS operations or functions while ensuring effective collaboration between human operators and autonomous systems; and
+
+(f) address responsibility for the operation, and human oversight, of a MASS.
+
+---
+
+# MSC 110/WP.8
+## Annex 1, page 5
+
+## CHAPTER 2 APPLICATION
+
+This Code is applicable to cargo ships to which SOLAS chapter I applies, including any associated remote operations centre(s) ROC(s), which have systems and functions that enable autonomous or remote operations, when the Administration deems that compliance with other applied instruments is impracticable or insufficient. This Code does not apply to:
+
+.1 cargo high speed craft to which SOLAS chapter X applies; and
+
+.2 warships, naval auxiliaries, and other ships owned or operated by a Contracting Government and used only on Government Non-Commercial service.
+
+## CHAPTER 3 CODE STRUCTURE
+
+The structure and intent of the parts of this Code are:
+
+**Part 1:** Introduction covering overarching matters to be considered in the application of the Code.
+
+**Part 2:** Technical principles applicable in all cases when applying the Code. These principles and the resulting requirements should be met as part of any MASS approval and certification process.
+
+**Part 3:** Goals, functional requirements, and expected performances applicable to MASS operations and functions. Depending on the mode of operation and functionality being certified, not all chapters of part 3 may require to be met.
+
+## CHAPTER 4 TERMINOLOGY AND DEFINITIONS
+
+For the purposes of the Code, unless expressly provided otherwise, terms used have the meanings defined in the following paragraphs. For terms used, but not defined in this Code, the definitions as given in the 1974 SOLAS Convention, as amended, shall apply.
+
+**4.1** *Agent* means a human or software (computer or computer system) responsible for performing or supervising control actions.
+
+**4.2** *Automatic* means processes or equipment that, under specified conditions, can function without human control.
+
+**4.3** *Automation* means the implementation of processes by automatic means.
+
+**4.4** *Autonomous* means processes or equipment in a MASS system which are designed and verified to, under certain conditions, be controlled by automation, without human assistance.
+
+**4.5** *Autonomous Navigation System (ANS)* means a system which, under specified conditions, is capable of the navigation of a vessel without human control or intervention.
+
+**4.6** *Concept of Operation (ConOps)* means a document describing the characteristics of a proposed system. The ConOps would be part of the certification of a MASS.
+
+---
+
+# MSC 110/WP.8
+## Annex 1, page 6
+
+**4.7** *Connectivity* means capabilities that allow appropriate and applicable ship systems, the Remote Operations Centre, and other stakeholders to connect to a communication network.
+
+**4.8** *Control* is purposeful action on or in a process to meet specified objectives.
+
+**4.9** *Control action* means the acquisition of information, analysis of information, decision-making, or implementation of physical actions.
+
+**4.10** *Control Station* means a single or multiple position(s), including all equipment such as computers and communication terminals and furniture, from which functions or operations of a ship can be controlled or monitored.
+
+**4.11** *Degraded state* means a deviation in the normal operation or condition of the vessel which can potentially result in a fallback state.
+
+**4.12** *Direct control* is an operator control mode where the operator continuously operates a specific function or parameter in real-time.
+
+**4.13** *Failure* means the loss of the ability of an item to perform the specified function.
+
+**4.14** *Fallback response* means the actions and procedures to enter into, safely stay within, and eventually recover from, a predefined fallback state.
+
+**4.15** *Fallback state* means a predefined state entered when it is not possible for the MASS to stay within the operational envelope.
+
+**4.16** *Fault* means an abnormal condition that can cause an element or an item to fail.
+
+**4.17** *Fault tolerant* means the ability of a functional unit to perform a required function in the presence of faults or errors.
+
+**4.18** *Function* means a task or group of tasks, duties and responsibilities, as specified in the MASS Code, necessary for the operation of the ship.
+
+**4.19** *Hazards* are situations having the potential to threaten human life, health, property or the environment.
+
+**4.20** *Human-Centred Design* is an approach to system design and development that aims to make interactive systems more usable by focusing on the use of the system; applying human factors, ergonomics and usability knowledge and techniques.
+
+**4.21** *Human Machine Interface (HMI)* means the part of a system with which an operator interacts. The interface is the aggregate of means by which the users interact with a machine, device, and system. The interface provides means for input, allowing the users to control the system and output, allowing the system to inform the users.
+
+**4.22** *Intolerable risk* means the level of risk at individual and societal level that would be higher than ALARP (As Low As Reasonably Practicable) assessed during the design of ConOps for a MASS.
+
+**4.23** *Maritime Autonomous Surface Ship (MASS)* means a ship which, to a varying degree, can operate independently of human interaction.
+
+---
+
+# MSC 110/WP.8
+## Annex 1, page 7
+
+**4.24** *Mitigation* means a measure implemented to prevent unsafe conditions or modes from resulting in losses.
+
+**4.25** *Modes of Operation (MoO)* means the condition(s) under which the functions of a MASS are operated, i.e. remotely operated or autonomous, with or without persons on board.
+
+**4.26** *Monitoring* means the use of measurements and analytical methods to understand the condition and any changes in the state of MASS including its systems and components.
+
+**4.27** *Normal operation* means ship operations within the Operational Envelope of a MASS.
+
+**4.28** *Onboard crew* means a master, other officers or operational staff physically on board a ship.
+
+**4.29** *Operational design domain (ODD)* refers to the design range in which a system can operate as intended. It includes both internal events, such as component or subsystem failure or degradation; and relevant external factors, such as available resources, geographical, or environmental situations.
+
+**4.30** *Operational Envelope* means the description of the ship's operational capabilities and limitations.
+
+**4.31** *Override* means to take over control of functions or systems that are under autonomous or remote operation.
+
+**4.32** *Quality of Service* is a network's ability to maintain acceptable connectivity in the intended operational envelope, achieve maximum bandwidth, and deal with other network performance elements.
+
+**4.33** *Remote crew* means a master, operators and responsible persons operating a MASS remotely and/or remotely providing assistance to the crew in the MASS operation.
+
+**4.34** *Remote operation* is when the ship, or functions and systems within the ship, are operated from outside the ship.
+
+**4.35** *Remote Operations Centre (ROC)* means a location remote from the ship and from which some or all of the functions of the ship can be operated.
+
+**4.36** *Remote Operator* means a qualified person who is employed or engaged to operate some or all of the functions of a ship from a Remote Operations Centre.
+
+**4.37** *Ship* means a ship to which the MASS Code is applied unless expressly provided otherwise.
+
+**4.38** *Situational Awareness* means the perception of environmental elements, the condition of ship and ROC systems and events with respect to time and space, the comprehension of their meaning, and the projection of their future status.
+
+**4.39** *Submitter* is an entity seeking approval of a MASS from the Administration, and responsible for communicating with the administration for the submission and follow up of the approval process.
+
+**4.40** *System* means the combination of interacting elements organized to achieve one or more stated purpose, i.e. goals.
+
+---
+
+# MSC 110/WP.8
+## Annex 1, page 8
+
+**4.41** *Systematic Failure* means an event that is the consequence of inadequate work processes and may be introduced at all stages in the system lifecycle.
+
+**4.42** *Task* means a set of actions taken to enable functions and the performance of operations.
+
+**4.43** *Task Station* means a multifunction display with dedicated controls providing the possibility to display and operate any tasks. A task station is part of a workstation.
+
+**4.44** *Third Parties* means persons or entities that are not involved in the operations of the ship or an associated ROC but are engaging with it (e.g. VTS, ports, pilots or other persons onboard or in the ROC for maintenance reasons, persons in distress, etc.).
+
+**4.45** *Unsafe state* means where a system is operating outside its operating envelope and not within fallback state due to degraded performance (e.g., faults or failures) or is exceeded capabilities which, if left uncorrected or unmitigated, has the potential to directly cause an accident.
+
+**4.46** *Verification* means a reliable, secure and continuously available process to confirm the authenticity and validity of an electronic certificate using the unique tracking number and other data contained on, or embedded in, the electronic certificate.
+
+**4.47** *Validation* means the testing and evaluation to prove that a MASS and its systems, including hardware and software components, are effective, dependable and safe during real world operations and satisfy all the technical requirements representative of normal, abnormal and adverse operating conditions.
+
+**4.48** *Voyage Phase* means the subdivisions of the voyage typically characterized by a recognizable shift in where the vessel is located in terms of geographical surroundings, or the start and end of one or more operation.
+
+# MSC 110/WP.8 - MASS CODE (Maritime Autonomous Surface Ships)
+
+## PART 2: MAIN PRINCIPLES FOR MASS AND MASS FUNCTIONS [AND REMOTE OPERATIONS]
+
+### CHAPTER 5: SURVEYS AND CERTIFICATES
+
+#### 5.1 MASS Certificate
+
+**5.1.1** Every ship to which this Code applies should have on board a valid MASS Certificate, issued after an initial or renewal survey confirming compliance with the relevant requirements of this Code.
+
+**5.1.2** The MASS Certificate should be issued either by the Administration or by an organization recognized by it in accordance with SOLAS regulation XI-1/1.
+
+**5.1.3** The MASS Certificate should be accompanied by a MASS Record, containing the following:
+- .1 a description of the ConOps;
+- .2 survey requirements associated with the systems to which the MASS Code is applied;
+- .3 the task allocation summary;
+- .4 the regulatory gap analysis; and
+- .5 a list of any ROC approved for working with the ship.
+
+**5.1.4** The MASS Certificate and MASS Record should be drawn up in a form corresponding to the models given in appendix [...] to this Code. If the language used is neither English, nor French nor Spanish, the text should include a translation into one of these languages.
+
+**5.1.5** The MASS Certificate and the MASS Record should be issued in addition to other relevant certificates required in SOLAS regulation [I/12].
+
+**5.1.6** Where compliance with any of the requirements of SOLAS is achieved through application of the MASS Code, resulting exemptions or equivalent arrangements should be reflected on the appropriate SOLAS certificates.
+
+#### 5.2 MASS Surveys
+
+**5.2.1** The MASS Certificate validity, survey dates and endorsements should be harmonized with the relevant SOLAS certificates in accordance with the principles of resolution A.1186(33) as amended and the SOLAS Convention.
+
+**5.2.2** The surveys referred to in 5.2.1 should be carried out as follows:
+- .1 the initial survey should include complete inspection, verification and testing of the MASS functionality and connectivity with any associated ROCs intended to be certified, to ensure compliance with the requirements of this Code;
+- .1bis the renewal survey should consist of an inspection, with tests, of the MASS functionality and connectivity with any associated ROCs, to ensure compliance with the requirements of this Code, are in satisfactory condition, and are fit for the service for which the ship is intended;
+- .2 the intermediate and annual surveys should include, as considered appropriate, general inspection, verification and testing of the MASS functionality, including inspection of operational records of related systems, to ensure that they comply with the requirements of this Code, are in satisfactory condition, and are fit for the service for which the ship is intended; and
+- .3 additional surveys after repairs resulting from investigations prescribed in SOLAS regulation I/11, or after any major repairs, renewals or modifications of equipment or systems related to autonomously or remotely-operated functions, to ensure that the ship complies with the relevant requirements of this Code.
+
+Such major repairs, renewals or modifications of equipment and/or systems may include, inter alia, the following:
+- .1 replacements or updates that may affect the compatibility, security and stability of the software system;
+- .2 modifications to the ConOps and verification that the functionality of MASS systems and function continues to comply; and
+- .3 after serious failure or defects of equipment and/or systems.
+
+**5.2.3** The MASS Certificate should be endorsed after intermediate and annual surveys referred to in 5.2.1.
+
+#### 5.3 MASS ROC Certificate
+
+**5.3.1** Every Remote Operation Centre (ROC) to which this Code applies should, for each ship it operates, have a valid MASS ROC Certificate issued after an initial or renewal survey.
+
+**5.3.2** The MASS ROC Certificate should be issued either by the Administration or by an organization recognized by it in accordance with SOLAS regulation XI-1/1.
+
+**5.3.3** The MASS ROC Certificate should be accompanied by a MASS ROC Record, containing the following:
+- .1 the MASS ConOps;
+- .2 all operational restrictions on the ROC; and
+- .3 the infrastructure for connectivity, and its performance and quality of service as accepted by the Administration.
+
+**5.3.4** The MASS ROC Certificate and MASS ROC Record should be drawn up in a form corresponding to the models given in appendix [NN] to this Code. If the language used is neither English, nor French nor Spanish, the text should include a translation into one of these languages.
+
+#### 5.4 MASS ROC Surveys
+
+**5.4.1** MASS ROC Certificate validity, survey dates and endorsements should be harmonized with the relevant SOLAS certificates in accordance with the principles of resolution A.1186(33), as amended, and the SOLAS Convention.
+
+**5.4.2** The surveys referred to in 5.4.1 should be carried out as follows:
+- .1 the initial survey should include a complete inspection, verification and testing of the ROC and the MASS Remote Operation functionality, to ensure compatibility between the ship and ROC and that they comply with the requirements of this Code;
+- .1bis the renewal survey should consist of an inspection, with tests, of the ROC and the MASS Remote Operation functionality, to ensure compatibility between the ship and ROC and that they comply with the requirements of this Code, are in satisfactory condition, and are fit for the service for which the ship and ROC is intended;
+- .2 intermediate and annual surveys should, as considered appropriate, include general inspection, verification and testing of the ROC and the MASS Remote Operation functionality, to ensure compatibility between the ship and ROC and that they comply with the requirements of this Code, are in satisfactory condition, and are fit for the service for which the ship and ROC are intended; and
+- .3 additional surveys should be made after repairs resulting from investigations prescribed in regulation 11 chapter I of SOLAS, or after any major repairs, renewals or modifications of equipment and/or systems related to autonomously or remotely-operated functions, to ensure that the ROC complies with the requirements of this Code.
+
+Such major repairs, renewals or modifications of equipment and/or systems may include inter alia the following:
+- .1 replacements or updates that may affect the compatibility, security and stability of the software system;
+- .2 modifications to the ConOps, and verification that the ROC and ship functionality continues to comply; and
+- .3 repairs after serious failure or defects of equipment and/or systems.
+
+**5.4.3** The MASS ROC Certificate should be endorsed after intermediate and annual surveys referred to in 5.4.1.
+
+#### 5.5 Provisional MASS Certificate
+
+Provisional MASS and MASS ROC Certificates may be issued to a ship and ROC that will enable initiation of operations while they are undergoing testing during step 3 of the approval process, as described in section 6.1 of chapter 6.
+
+Provisional MASS and MASS ROC Certificates may be issued before performing the full-scale test of the ship and ROC, provided that individual MASS systems have been tested and verified and results of ship simulation (if applicable) are reviewed and accepted, in accordance with the verification and validation plan approved at step 2 of the approval process, and all the design documents have been updated accordingly and approved according to the simulation and system testing results.
+
+Provisional MASS and MASS ROC Certificate[s] should be issued by the Administration or by an organization recognized by the Administration to a ship and ROC for a period and area of testing specified by the Administration, based on the arrangements proposed by the Submitter in the verification and validation plan.
+
+In addition to surveys covered by the verification and validation plan, ships and ROCs issued with Provisional MASS and MASS ROC Certificate[s] should be subject to the surveys listed in 5.2 and 5.4, as appropriate.
+
+#### 5.6 Validity of Certificates
+
+**5.6.1** A certificate issued under section 5.1, 5.3 or 5.5 should cease to be valid in any of the following cases:
+- .1 if the relevant surveys and inspections are not completed within the periods specified under section 5.2 or 5.4;
+- .2 if the certificate is not endorsed in accordance with the present requirements;
+- .3 upon transfer of the ship to the flag of another State. A new certificate should only be issued when the Administration issuing the new certificate is fully satisfied that the ship is in compliance with the requirements of this Code.
+
+**5.6.2** Where a MASS ROC Certificate is withdrawn or ceases to be valid, the Administration should review the effect on the associated MASS Certificate as well as on other MASS ROC Certificates issued for this ROC [by that Administration].
+
+#### 5.7 Safety Management Certification
+
+Every ISM company intending to operate a ship with autonomous or remotely operated functions should, in accordance with chapter 11 of this Code, develop its Safety Management System(SMS) to address MASS Operations, including Remote Operations.
+
+The ISM company should ensure that the SMS is implemented and maintained on the ship and at any ROCs involved in its operation. The ISM company should clearly identify and document the subdivision of tasks and relationship between the ISM company and any associated ROCs and ships.
+
+Any operational procedures specified by this code for the autonomous or remote operations, including watchkeeping arrangements, should be included in the safety management system of the ship and ROC respectively.
+
+The operation of the ROC, including the remote operation of the ship, should be included in the ISM verification and certification process for an ISM company to the satisfaction of the Administration.
+
+Where the alternative management described in section 11.[...] is used for the operation of a ROC(s), certification should follow a similar approach as the ISM Code with:
+- .1 a ROC Safety Management System (ROCSMS);
+- .2 a DoC for the Remote Operation Management(ROM) Company (ROM DoC); and
+- .3 a ROC Management Certificate (RMC) for each ROC.
+
+#### 5.8 ISPS Certification
+
+A ship or ROC to which this code applies, should be certified according to the ISPS Code, as supplemented by this Code.
+
+#### 5.9 Minimum Safe Manning Documents
+
+A ship to which this Code applies should be furnished with a Minimum Safe Manning Document (MSMD) according to IMO resolution A.1047(27) as amended, and to the satisfaction of the Administration.
+
+A ROC operating a ship to which this Code applies should be furnished with a Minimum Safe Manning Document (MSMD) for operation of that ship, based on the principles of IMO resolution A.1047(27) as amended, and to the satisfaction of the Administration.
+
+A ROC operating several ships should be issued with one MSMD per ship. For such ROCs a MASS ROC Master Plan (MRMP) for watchkeeping and other tasks should be developed and approved by all Administrations who have issued MSMDs covered by the MRMP.
+
+Ships and the ROCs involved in their operation should be manned in accordance with the respective MSMDs.
+
+### CHAPTER 6: APPROVAL PROCESS
+
+#### 6.1 Process description
+
+A structured approval process should take place to enable the MASS to obtain the required approval including the necessary certificates related to requirements for the intended operation. By following this process, Submitters and Administrations would be working in cooperation to ensure that all aspects of safety, security and environmental protection are adequately assessed. This process is intended for the MASS as a whole, while individual systems are covered in the verification and validation step.
+
+The approval process for MASS should be based on and follow the main principles of the Guidelines for the approval of alternatives and equivalents as provided for in various IMO instruments (MSC.1/Circ.1455) taking into consideration parts 2 and 3 of this Code. The level of detail should be proportional to the complexity, level of novelty and associated risk of the MASS and on whether the Submitter is applying for preliminary or final approval and the necessary documentation may vary accordingly.
+
+The steps and documentation required in this chapter provide the general basis of the approval process. This does not exclude other information or documentation that may be requested by the Administration or an alternative process which may be followed to the satisfaction of the Administration.
+
+Sufficient information should be supplied to enable the Administration to fully assess the features of the MASS. After appropriate identification of relevant stakeholders by the Submitter, discussions should commence at the earliest possible stage so that the Administration may fully evaluate the level of safety of the MASS.
+
+The approval process should be conducted using the following steps:
+1. Preliminary design development;
+2. Preliminary design approval;
+3. Testing, simulation, and other verification methods;
+4. Final approval; and
+5. Operation.
+
+#### 6.2 Evaluation criteria
+
+The basic principle for the evaluation criteria should be to ensure a level of safety, environmental protection and security that is expected of a conventionally operated ship. The evaluation criteria should be developed through compliance with the goals and functional requirements of part 3 of this Code in combination with a risk assessment (as described in 7.2 of the Code). The evaluation criteria and an assessment plan thereof should be agreed with the Administration.
+
+#### 6.3 Design and documentation requirements
+
+For each approval step, information and documentation required by the Administration should be produced and submitted. The various documents required in the approval process steps are expected to be reviewed according to any possible design or operational changes and added details. The approval steps do not need to be sequential, meaning that they may also run at the same time.
+
+The ConOps (as described in section 8.2) should be a base document in the approval process and should be the basis for the assessment in each step.
+
+#### 6.4 Operation
+
+Conditions for maintaining the safety level agreed during the design approval may be imposed on ship operation. Any operational conditions should be determined during the approval process, and they should be clearly documented and communicated to relevant parties.
+
+If, during the operational phase, the initial assumptions, systems and equipment are changed, i.e. any change in the ConOps, the part of the risk assessment with the respective changes should be repeated. The extent of work needed will be dependent on the risk-based features, the changes and the operation of the ship and may be decided by the Administration.
+
+For example, in the case of a ROC with remote operators approved for the control of one vessel, it may be necessary to review the approval assumptions if a second vessel is added to the same ROC.
+
+MASS may initiate operations while it is being tested. During such tests, the certification of the ship should follow the process for Provisional MASS Certification described in section 5.5. In addition, further mitigation layers to the system that is being tested should be foreseen such as different modes of operation from the ones of the final design.
+
+Table 1 in the annex provides additional guidance in relation to the approval steps that require relevant documentation.
+
+### CHAPTER 7: RISK ASSESSMENT
+
+**7.1** A risk assessment should be conducted to ensure that risks arising from the use of MASS functions, including relevant functions in ROCs, affecting persons on board, the environment, and the safety of the ship are addressed, taking into account identified goals and functional requirements, ensuring a level of safety expected of a conventional ship. The risk assessment can be conducted on MASS as a whole, and/or on the MASS functions. It should also consider the OE or ConOps of the MASS. The risk assessment should address relevant mitigation measures. Should the risk assessment be carried out on specific MASS functions, the consequences on other ship's functions should be considered and mitigated.
+
+**7.2** Appropriate risk assessment methodologies¹ should be used for the different steps of the approval process as required in chapter 6 (approval process). Such risk assessments might include but are not limited to:
+- .1 MASS (including ROCs) and system design;
+- .2 alteration or modification of any major characteristic of the ship or of the OE or ConOps of MASS that may impact MASS functions.
+
+**7.3** A risk assessment should be carried out by personnel with relevant expertise as required by the Administration of the flag State (MSC.1/Circ.1212/Rev.2, annex, point 4).
+
+**7.4** Risks should be analysed using suitable, recognized and appropriate risk assessment methodologies. The output format should be justified by the Submitter and be agreed between the Submitter and the Administration. Risk assessment should include a comprehensive description of the autonomous and remote-control function's utilization, effectiveness and reliability by performing a thorough hazard and mitigation analysis, evaluating the identified risks, and implementing effective risk control measures. The risk assessment should analyse and address hazards associated with the intended OE of the MASS including the associated ROCs, as described in the ConOps. Apart from the hazards such as loss of function, cyber incidents, software application failure, component damage, fire, explosion and electric shock, it should also consider the random, systematic, and systemic hazards involved within the OE.
+
+**7.5** The adopted mitigation measures should take into consideration single failure events, but also foreseeable events within the OE of the ship that may influence the performance of more than one system at the same time (e.g. heavy weather during hours of darkness). Such features should consist mainly of independent mitigation layers, including predefined fallback states. The number of such mitigation layers should be proportional to the risk.
+
+The assessment should ensure that hazards are eliminated wherever possible through inherently safe design and hazards that cannot be eliminated should be mitigated as needed.
+
+The effectiveness of the mitigation measures considered in the risk assessment should be verified according to the verification and validation plan stipulated in paragraph 2.7 of the annex.
+
+---
+¹ Refer to MSC.1/Circ.1455 and IEC/ISO 31010:2019 – Risk assessment techniques and Risk assessment Methodologies may be used include: IEC 61508 Parts 1 to 7 – Functional safety of electrical/electronic/programmable electronic safety; STPA: http://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf RBAT: https://www.emsa.europa.eu/mass/rbat.html
+
+### CHAPTER 8: OPERATIONAL CONTEXT
+
+**8.1** The operational context for a MASS should, within the applicable regulatory framework, and on the understanding that it does not have any privilege over conventional ships, consider all aspects of the MASS operation and describe the autonomous or remotely operated ship function(s) and the external environment that influences its operation.
+
+The operational context encompasses the Concept of Operation (ConOps), the Operational Envelope (OE), the system-specific Operational Design Domain (ODD), Fallback States, the Mode(s) of Operation (MoO) and the Human control and supervision, all of which should be considered as part of the certification.
+
+#### 8.2 Concept of Operation (ConOps)
+
+**8.2.1** The ConOps should be drafted to ensure the safe, secure and environmentally friendly operation of the ship.
+
+**8.2.2** The ConOps may be drawn up in a form corresponding to the model given in appendix [NN] to this code or an alternative acceptable to the Administration.
+
+**8.2.3** Risk assessments for the ship and ROC should take the ConOps into consideration. The ConOps and the associated risk assessment should ensure that all relevant risks are addressed.
+
+**8.2.4** The ConOps should include consideration of the Operational Envelope (OE) and the technical design of the ship and of the Remote Operation Centre(s) (ROC), if applicable, including connectivity and communication lines. The ConOps should address the control, monitoring, and intervention on board the ship and at the ROC, if applicable, together with the integration of humans in the operation.
+
+**8.2.5** The ConOps should be reevaluated when there are hardware, software, operational or management changes to the ship or ROC.
+
+#### 8.3 Operational Envelope (OE) and Operational Design Domain (ODD)
+
+A ship to which this Code applies should have a clearly defined OE for the ship as an integrated system, which also includes the ODDs of all relevant ship systems or functions.
+
+##### 8.3.1 Operational Envelope (OE)
+
+The Operational Envelope (OE) of the ship should encompass the operational capabilities and limitations of the autonomous or remote operation, and ship-specific capabilities and limitations to indicate the condition in which an autonomous or remotely operated ship can operate safely in all operating conditions, including all reasonably foreseeable degraded states.
+
+The OE should (inter alia) contain:
+- .1 the definition of the ship functions and states and its use case(s);
+- .2 the geographic area of operations, including coverage/connectivity and traffic conditions;
+- .3 the description of the environmental limitations;
+- .4 the description of operational limitations for different modes of operation during a single voyage;
+- .5 the use and management of the modes of operation, including the division of functions and allocation of tasks between humans and automation; and
+- .6 any other factors that have a significant impact on MASS operations.
+
+##### 8.3.2 Operational Design Domain (ODD)
+
+The Operational Design Domain (ODD) of individual functions or systems should be based on the results of a risk assessment. The relevant design documents should include:
+- .1 the conditions and limitations under which any relevant individual autonomous or remotely operated system or function operates safely;
+- .2 reasonably foreseeable system or equipment malfunctions including corresponding degraded states;
+- .3 the extent of human interaction;
+- .4 the capabilities and limitations to be accomplished before activation of operation of the individual system or function; and
+- .5 descriptions of the external and internal conditions, such as geographical boundaries within which the ship is to operate, the maximum wind and sea wave heights, etc.
+
+An autonomous or remotely operated system and related equipment should operate within its ODD and should be able to detect whether its current state of operation meets the ODD.
+
+##### 8.3.3 Degraded state
+
+A single autonomous or remotely operated system or function deviating from its ODD should not necessarily result in the ship deviating from its OE. As long as the ship as an integrated system can continue to be operated within its OE the deviation of an autonomous or remotely operated system or function from its ODD should be considered as a degraded state.
+
+#### 8.4 Fallback state
+
+In case of deviating from its OE a ship should enter a predefined fallback state, offering an additional mitigation layer. There may be more than one predefined fallback state to address failures or conditions identified at the ship design stage that might lead to a ship deviating from its OE.
+
+The conditions, actions and procedure to enter into, and recover from, a fallback state should be considered as the fallback response and should be predefined and able to be tested.
+
+When a ship enters a fallback state, the predefined fallback response should avoid, as far as practicable, any harm to life at sea, other ships, infrastructure, or the marine environment while the ship returns into its OE and normal operation is restored.
+
+Fallback states should be risk-assessed and demonstrate effectiveness in avoiding further deterioration in the status of the ship or increases in the threat to life at sea, other ships, infrastructure, or the marine environment. Depending on the result of the risk assessment, more than one independent fallback state should be available at any time during normal operations. Being in a fallback state should not result in an intolerable risk.
+
+The ship should be capable of notifying its crew and any operators when transitioning to, and operating in, a fallback state.
+
+#### 8.5 Contingency plans
+
+A deviation from an OE beyond a predefined fallback state, should lead to the activation of contingency plan(s).
+
+#### 8.6 Mode(s) of Operation (MoO)
+
+The MoO of a ship may be changed for different phases of a voyage, and procedures to change from one MoO to another, along with the criteria for any such change, should be described in the ConOps.
+
+The description of MoO should also identify:
+- .1 which ship functions are autonomous or remotely operated;
+- .2 how autonomous or remotely operated ship functions are allocated to different agents (human or software);
+- .3 how the affected ship functions are supervised, and by which agents;
+- .4 where the different agents are located (on board or remote); and
+- .5 which other systems and other roles (personnel) are involved in performing the control action.
+
+#### 8.7 Human Control and Supervision
+
+Humans should be able to exercise control, if the situation requires it.
+
+[There should be a human master responsible for a MASS, regardless of mode of operation [and the master of the MASS should have the means to intervene when necessary].]
+
+Identification of systems and personnel involved in performing control actions as per 8.6 should be based on the understanding that operation of a ship without any human interaction has limitations.
+
+The remote operator or onboard crew should be provided ample time and sufficient information to be able to establish situational awareness, assume responsibility and exercise direct or supervisory control of all functions according to the ConOps.
+
+### CHAPTER 9: SYSTEM DESIGN
+
+In addition to complying with relevant rules and regulations and standards, performing and supervising any specific function of the ship, MASS functions should comply with the following high-level principles.
+
+#### 9.1 Safety-Centric Design
+
+Systems should be designed to minimize risks to the ship, crew, ROC operators, cargo, other ships and the marine environment by incorporating inherently safe design principles. All systems used for MASS operations should include fail-safe mechanisms and emergency protocols to ensure comprehensive safety and effective risk management. Hazards affecting the systems should be eliminated wherever possible, and those that cannot be eliminated should be mitigated as needed by using a risk assessment as described in chapter 7.
+
+#### 9.2 Human Centred Design
+
+[The design and operation of the MASS and associated (ROC) human-machine interfaces should prioritize assistance to human operators. The Human-Centred Design (HCD) should be appropriately tailored for all anticipated interactions between the crew/operators and the MASS.
+
+Interactions between onboard crew and remote operators should be considered in the Human-Centred Design outlined in section 13.6.
+
+Human operators, both on board and in remote, should be actively involved in the validation stages to ensure that the systems can be safely operated.]
+
+#### 9.3 Robustness and Reliability
+
+- .1 Systems should be robust and should be able to operate effectively under adverse conditions, including diverse maritime environments and operational challenges.
+- .2 It should be ensured that the systems perform their required functions effectively during the operational period specified by the manufacturer, up to predetermined maintenance intervals.
+
+#### 9.4 Adaptability and Flexibility
+
+Systems should have the ability to adapt to changing environments, tasks, and user requirements, and allow for updates and modifications to accommodate necessary technical and regulatory updates, and future needs.
+
+#### 9.5 Redundancy and Fault Tolerance
+
+- .1 redundant sub-systems should be implemented to maintain functionality in case of component failures including systemic or systematic failures.
+- .2 Systems should be designed to handle and recover from failures and continue operating at a reduced performance level (fallback state).
+
+#### 9.6 Scalability
+
+It should be ensured that systems design are scalable, allowing for expansion or updates as technology advances or operational needs change.
+
+#### 9.7 Security and Cybersecurity
+
+Security measures to protect the systems on the MASS and the ROC should be incorporated to prevent unauthorized access and cyber risks.
+
+#### 9.8 Data Management and Quality
+
+Efficient data management systems should be incorporated to ensure data accuracy, integrity, and quality.
+
+#### 9.8bis Proper Record Keeping (Data Logging)
+
+**9.8bis.1** Systems should support data logging for performance, failure and incident analysis.*
+
+*footnote: MCS.333(90) "Adoption of revised performance standards for shipborne Voyage Data Recorder (VDRs)"
+IEC 61996-1:2013+A1:2021 "Maritime navigation and radiocommunication equipment and systems - Shipborne voyage data recorder (VDR) - Part 1: Performance requirements, methods of testing and required test results"
+
+**9.8bis.2** Data should be electronically stored for a predetermined period, minimum 30 days, and be made available in an appropriate format*.
+
+*footnote: MSC.1/Circ.1024 "Guidelines on voyage data recorder (VDR) ownership and recovery"
+
+**9.8bis.3** For data stored on board, means should be available to protect data during, and retrieve data following an incident.
+
+**9.8bis.4** Logged data should contain appropriate detail to restore a complete record of the MASS operations, including, where applicable, remote operations and automated decision-making processes.
+
+**9.8bis.5** Logged data should be made available to the Administration and other marine investigation authorities upon request.
+
+**9.8bis.6** The requirements of SOLAS regulation V/20 (VDR carriage) should apply to all MASS to which this Code applies.
+
+#### 9.9 Interoperability
+
+Compatibility and interoperability with systems, devices, applications, and technologies should be ensured.
+
+#### 9.10 Testing and Validation
+
+MASS systems should undergo comprehensive testing and validation to ensure compliance with design specifications and operational requirements. This process includes a structured, procedure comprising detailed simulation, component testing, integration testing, system testing.
+
+Operators should be actively involved in the system validation phase in real-case scenarios to ensure practical usability and operational soundness meeting all regulatory requirements, before obtaining the necessary certifications.
+
+#### 9.11 Transparent Design
+
+Ensure that transparency is maintained in the system design for systems operations and decision-making processes.
+
+### CHAPTER 10: SOFTWARE PRINCIPLES
+
+The following principles should be implemented to ensure that software on or supporting MASS (or automated functions thereof) are reliable, trustworthy, safe and secure. They should be used within the context of complying with the MASS Code, including the use of remote control and autonomous operation of key functions.
+
+The principles should be considered as part of the approval process, and this may be done using software quality assurance standards.²
+
+#### 10.1 Proportionality
+
+Software should have an explicit and well-defined operational design domain. The use of software should not go beyond what is provided for in the ConOps and risk assessment(s) should be used to prevent hazards which may result from such uses.
+
+#### 10.1bis Reliability
+
+The continued effectiveness of such software capabilities should be subject to testing and assurance across their entire lifecycles.
+
+#### 10.2 Safety and Security
+
+Unwanted harm (safety risks) as well as vulnerabilities to external factors (security risks) should be avoided and addressed. Safety and security (including cybersecurity) risks should be identified, addressed, and mitigated throughout the software's operational life to prevent and/or limit, any potential or actual harm to shipping, humans, or the environment.
+
+#### 10.3 Transparency and Explainability
+
+Software should be transparent and explainable at all stages of its operational life, and for all decision-making processes. The transparency and explainability should ensure relevant personnel possess an appropriate understanding of the technology, development processes, and operational methods applicable to autonomous capabilities, including with transparent and auditable methodologies, data sources, and design procedure and documentation.
+
+#### 10.4 Accountability
+
+Entities developing, deploying, or operating software should implement mechanisms to ensure accountability and proper operation of their software. Software should be auditable and traceable to such entities. There should be governance mechanisms in place for oversight, impact assessment, audit, and due diligence to ensure accountability for the software's impact throughout its operational life.
+
+#### 10.5 Robustness
+
+Safe and secure software and hardware should be enabled through robust frameworks. Software should perform consistently with intended objectives, in a stable and resilient manner in a variety of circumstances. The robustness of such systems should be tested and assured across their entire life cycle within that domain of use.
+
+#### 10.6 Human Oversight and Determination
+
+Software should be designed and developed to ensure people managing MASS operations can exercise appropriate oversight, including the ability to verify decisions when required. Humans should be provided with the means to interpret appropriate context, prevent or minimize risks, provide input and direction as required for safe, secure, and environmental sound operation of MASS.
+
+#### 10.6bis Unintended Bias
+
+Software should be designed and developed to prevent unintended bias.
+
+---
+² MSC.1/CIRC.1512 Guidelines on Software Quality Assurance and Human-Centred Design for E-Navigation
+- IEC 61 508 Functional safety of safety-related electrical/electronic/programmable electronic systems
+- INS standard (IEC 61924-2),
+- IEC 61162 series of standards
+- IACS UR E22 "Computer-based systems". The Rev.3 (June 2023)
+- ISO/IEC 90003 Software engineering - Guidelines for the application of ISO 9001 to computer software
+- [ISO/IEC 25000]
+- MSC-FAL.1/Circ.3/Rev.3 Guidelines on Maritime Cyber Risk Management
+
+### CHAPTER 11: MANAGEMENT OF SAFE OPERATIONS
+
+#### 11.1 Goal
+
+The goal of this chapter is to ensure adequate management for safe operations.
+
+#### 11.2 Functional Requirements
+
+To achieve the above-mentioned goal, the ship, the company and the ROC should comply with the requirements for the management for the safe operation of ships in SOLAS and the ISM Code, as supplemented by the functional requirements of this chapter.
+
+**11.2.1** The Safety Management System (SMS) should provide for safe MASS operations by establishment of procedures, plans and instructions for all foreseeable modes of operation, including those involving different physical locations, if applicable.
+
+EP 1 Risk control measures should address autonomous or remotely controlled ship functions.
+
+EP 2 Internal processes verifying the effectiveness of procedures, plans and instructions should address autonomous or remote-controlled ship functions.
+
+EP 3 Human-machine-interface aspects of autonomous or remote-controlled ship functions.
+
+EP 4 role and expected performance for all physical location(s) where autonomous or remote-controlled ship functions are executed.
+
+EP 5 With respect to autonomous or remote-controlled ship functions, the following should be considered:
+- .1 their interaction, capabilities and limitations;
+- .2 the complexity of systems, including software systems or data services;
+- .3 equipment and systems necessary to maintain contact to the MASS.
+- .4 lines of communication to maintain contact to the MASS;
+- .5 cyber-risks; and
+- .6 fallback actions and processes to maintain their safe operation
+
+**11.2.2** The Safety Management System (SMS) of the company should provide for the safety and well-being of the personnel involved in the operations by:
+- .1 identification of resources and training required; and
+- .2 establishment of procedures, plans and instructions for all foreseeable operating conditions of the ship, including those involving different physical locations, if applicable.
+
+EP 1 This will be accomplished by ensuring consideration of:
+- .1 risk control measures addressing autonomous or remote-controlled ship functions;
+- .2 internal processes verifying the effectiveness of procedures, plans and instructions addressing autonomous or remote-controlled ship functions;
+- .3 human-machine-interface aspects of autonomous or remote-controlled ship functions;
+- .4 responsibilities with regard to the [intersection and] interaction in MASS operations;
+- .5 how to maintain function of overriding authority; and
+- .6 emotional pressure, specific stresses and strains to humans in the MASS operations.
+
+**11.2.3** The Safety Management System (SMS) of the company should provide for the safety of the ship under all expected emergency conditions by establishment of contingency procedures, plans and instructions, including emergency scenarios involving different physical locations, if applicable.
+
+EP 1 This will be accomplished by ensuring consideration of:
+- .1 risk control measures addressing autonomous or remote-controlled ship functions;
+- .2 internal processes verifying the effectiveness of procedures, plans and instructions addressing autonomous or remote-controlled ship functions;
+- .3 human-machine-interface aspects of autonomous or remote-controlled ship functions;
+- .4 monitoring autonomous or remote-controlled ship functions performance including relevant system and ship parameters;
+- .5 assistance for emergency handling or handling of other potentially unsafe situations; and
+- .6 capabilities and limitations of emergency response in the MASS operation.
+- .7 maintaining a minimum level of connectivity between the ship and the Remote Operations Centre (ROC);
+- .8 procedures for connecting to shore-based assistance during emergencies;
+- .9 addressing cyber risks during emergencies addressing autonomous or remote-controlled ship functions; and
+- .10 means and procedures for emergency standby arrangements and equipment addressing autonomous or remote-controlled ship functions.
+
+EP 2 This emergency procedures should be executed based on predefined contingency plans and adjusted appropriately as needed.
+- .1 An appropriate Mode of Operation (MoO) should be adopted, including suspension of operations if necessary.
+- .2 Emergency response data and relevant information should be accessible at any location involved in the response.
+- .3 All resources from the ship and the Remote Operations Centre (ROC) should be promptly mobilized to address the emergency situations.
+
+#### 11.3 Alternative Management for the Safe Operation of the ROC
+
+With regard to a company operating one or multiple Remote Operation Centre(s) (Remote Operation Management(ROM) company), this company could, to the satisfaction of the Administration, establish a Safety Management System for the operation of those ROCs under their responsibility. This ROC Safety Management System (ROCSMS) should supplement the ship's SMS developed by the ISM company, and the MASS ROC Certificate clearly establishing the relationship between the SMS and ROCSMS, to ensure that the safety level of the ship established through the ship's SMS is maintained.
+
+The alternative ROM certification should follow a similar approach as the ISM Code with:
+- .1 a ROC Safety Management System (ROCSMS);
+- .2 a DoC for the ROM Company (ROM DoC); and
+- .3 a ROC Management Certificate (RMC) for each ROC.
+
+### CHAPTER 14: ALERT MANAGEMENT
+
+#### 14.1 Goal
+
+The goal of alert management is to enhance the monitoring, handling, distribution, and presentation of alerts for ship and ROC thereby allowing for the prompt identification and addressing of any alert situation that arises and ensuring safe operation.
+
+#### 14.2 Functional Requirements
+
+To achieve the above-mentioned goal, the following functional requirements which are supplementary to SOLAS requirements are embodied in this chapter.
+
+FR 1 An alert management optimization should be performed taking into account the ConOps so that the alert management provides:
+- .1 the means used to draw the attention of the remote and onboard crew to the existence of alert situations;
+- .2 the means to enable the human operator to identify and evaluate the situation and handle alert announcements;
+- .3 the means for MASS remote and onboard crew and relevant third parties to assess the urgency of different alerts in cases where more than one alert must be handled;
+- .4 the means to manage alerts in a distributed system structure in a consistent manner; and
+- .5 support for effective supervision of autonomous and remotely operated functions.
+
+#### 14.3 Expected Performance
+
+EP 1 Alerting should follow the basic principles of the Bridge Alert Management (BAM) concept outlined by MSC.302(87), as amended.
+
+EP 2 If practicable, there should be no more than one alert for one situation that requires attention.
+
+EP 3 Alerts should provide information for the operator to sufficiently understand the consequences of the situation and determine appropriate actions.
+
+EP 4 The alert management should handle alerts from all systems or components required to support MASS and ROC operation in accordance with performance standards adopted by the Organization. Furthermore, it should have the capability to handle all other alerts in a consistent manner.
+
+EP 5 The logical architecture of the alert management and the handling concept for alerts should provide the capability to minimize the number of alerts, especially those on a high priority level.
+
+EP 6 The master should receive alerts and have access to the alert management at all times. The operator responsible for the MASS should be able to directly handle the alert management Human Machine Interface (HMI). It should be possible to provide the central alert management HMI at the control position for the operator.
+
+EP 7 Audible alerts should guide human operators to the task stations or displays which are directly assigned to the function generating the alert and presenting upon request at least the cause of the announcement and related information for decision support, e.g., dangerous target alarms should appear and have to be acknowledged at the workstation where the collision avoidance function is provided.
+
+EP 8 As alerts can be displayed at several locations and task stations, the system should be consistent as far as practicable with respect to how alerts are presented, silenced and acknowledged at any one task station. Actions taken in a task station should be visible to all other relevant task stations.
+
+EP 9 In addition to relevant alerts associated with conventional ships, specific consideration should be given to those alerts related to the operations and functions to which this Code is applied, as outlined in other chapters. Examples of such alerts would include but not be limited to:
+- .1 upon entering a fallback state or upon recognizing the need to enter a fallback state;
+- .2 in case the MASS is not able to enter a fallback state when deviating from its operational envelope;
+- .3 in case of equipment failure affecting operations of MASS functions or significantly increasing the risk of MASS operation e.g. loss of redundancy;
+- .4 in case a system, that is critical to MASS operation, exceeds or is about to exceed its ODD; and
+- .5 in case of ROC-specific alerts and conditions requiring attention (e.g. power failures, task station failures, communication system failures at ROC-level, software failures at ROC-level).
+
+EP 10 Alerts should only be presented for handling (e.g., acknowledgement or silencing) at task station(s) used by the operator in charge of the tasks related to the initiated alerts. Alerts may be presented visually for information at other task stations.
+
+EP 11 Task stations presenting alerts for multiple MASS should have the means to organize alerts per MASS and have the means to delegate alert handing for selected MASS to another task station.
+
+EP 12 When an emergency alarm is activated, a sufficient number of dedicated human operators including the master of the MASS should be operating the MASS until the emergency is over.
+
+EP 13 The observation of abnormal situations and conditions concerning more than one MASS should be classified as alarms.
+
+### CHAPTER 15: HUMAN ELEMENT / MANNING AND TRAINING
+
+[Note: There are two versions of Chapter 15 in the document. I'll include both:]
+
+#### Version 1: HUMAN ELEMENT
+
+##### 15.1 General
+
+**15.1.1** The goal of this chapter is to ensure that human element issues involving the crew on board the ship or operational personnel in a Remote Operations Centre (ROC) are effectively addressed.
+
+**15.1.2** To achieve the above-mentioned goal, the operation of a MASS should consider the entire spectrum from human-machine collaboration or cooperation and expected or anticipated emerging interaction, to human activities performed by, and with effect on, shipowner, crew on board a ship, personnel in ROC(s), and other relevant parties, taking into account the principle of Human-Centred Design (HCD) addressed in part 2 chapter 9 of the Code.
+
+**15.1.3** This chapter, as appropriate, may guide seafarers operating conventional ships and their shore-side personnel in comprehending the operation of a MASS.
+
+##### 15.2 Roles and responsibilities
+
+**15.2.1** The allocation of tasks for personnel in relation to all MASS functions including roles and responsibilities should be defined according to the Concept of Operations (ConOps) as well as provisions described in part 2 chapter 6 Approval Process, and in the task allocation summary.
+
+**15.2.2** Safe operation of a MASS is, at all times, the responsibility of the designated master regardless of the mode of operation, and they hold ultimate responsibility and authority over any operational decisions within a clear chain of command.
+
+**15.2.3** The master who is responsible for a MASS may be onboard the ship or at a ROC but should have the means to intervene when necessary.
+
+**[15.2.4** If there is a crew or persons on board, a master should be on board as well, to ensure the safety of personnel and operations.]
+
+**15.2.5** Several Masters could be responsible for a MASS on a single voyage, while only one master should be responsible at any given time.
+
+**15.2.6** Crew on board should have overriding authority over any remote operators with respect to the safety of persons onboard and operations.
+
+**15.2.7** To ensure the safety and security of crew or any other persons onboard, a clear contingency/emergency plan should be in place and an onboard responsible person should be designated along with clearly defined responsibilities and authority.
+
+##### 15.3 Supplementary Competencies, Training and Familiarization
+
+**15.3.1** Noting that the Principles of the Code ensure the base IMO instruments are maintained, this section provides principles for supplementary competencies and corresponding training and familiarization provisions required when operating a MASS, to fully demonstrate the roles and responsibilities including role allocation between the autonomous or automated system and seafarers and operators on both the ship and ROC(s).
+
+**15.3.2** The Remote Operator of a MASS should have competency and experience as an officer qualified in accordance with appropriate STCW requirements.
+
+**Familiarization for seafarers on board MASS**
+
+**15.3.3** Seafarers on board MASS should be familiar with the operation of the autonomous or automated systems installed on the MASS and for which they are responsible.
+
+**15.3.4** Seafarers on board MASS should understand the Operational Design Domain (ODD) of the MASS systems.
+
+**15.3.5** Seafarers should immediately take over the control of the MASS from the system and should command manually when the autonomous or automated systems malfunction and have departed from the ODD.
+
+**Familiarization for Remote Operator of a MASS**
+
+**15.3.6** The Remote Operator should be familiar with the operation of the autonomous or automated systems installed on the MASS and for which the seafarers are responsible.
+
+**15.3.7** The Remote Operator should be familiar with the ODD of the MASS systems.
+
+**15.3.8** The Remote Operator should be familiar with the means by which they can takeover control of the MASS functions from the system without delay.
+
+**Supplementary competencies for seafarers on board a MASS**
+
+**15.3.9** Seafarers on board a MASS should be competent in areas including, but not limited to:
+- .1 knowledge of the autonomous or automated systems on board MASS, in association with situational awareness, collision avoidance, and auto-tracking of the intended route, cybersecurity, propulsion plant etc.;
+- .2 demonstration of the roles and responsibilities of seafarers on board MASS, including role allocation between the autonomous or automated system and seafarers on board;
+- .3 knowledge of the ODD of the autonomous or automated systems of the MASS;
+- .4 ability to apply the risk assessment on any operation of the MASS; and
+- .5 managerial skills against the considerable risks while using the autonomous or automated systems. (Especially, the dangers of over-reliance on automated systems).
+
+**Supplementary competencies for the Remote Operator of MASS**
+
+**15.3.10** Remote Operators should be competent in areas including, but not limited to:
+- .1 knowledge of the autonomous or automated systems on board MASS and of ROC in association with situational awareness, collision avoidance, and auto tracking of the intended route, cybersecurity, propulsion plant etc.;
+- .2 demonstration of the roles and responsibilities of ROC including role allocation between the autonomous or automated system and seafarers on board;
+- .3 knowledge of the ODD of the autonomous or automated systems of the MASS
+- .4 ability to apply the risk assessment on any operation of the MASS; and
+- .5 managerial skills against the considerable risks while using the autonomous or automated systems (especially, the dangers of over-reliance on automated systems).
+
+**[15.3.11** Administrations should consider clearly evidenced remote operational experience as sea time equivalency for those working within a ROC for the revalidation of [Certificate of Competency/MASS Operator Endorsement] where appropriate.]
+
+##### 15.4 Manning/crewing
+
+**15.4.1** Taking into account the information provided in 15.4.2 and 15.4.3, the Administration should issue Minimum Safe Manning Documents (MSMD) in accordance with chapter 5 of the Code and resolution A1047(27).
+
+**15.4.2** When determining the safe manning levels for a MASS, the shipowner should take into account the following:
+- .1 IMO instruments as well as any relevant international instruments concerning manning levels;*
+- .2 the ConOps, risk assessment and the task allocation summary; and
+- .3 the emergency response plan for each ship that a ROC is operating.
+
+**15.4.3** When determining the safe manning level, and with reference to guidance issued by the organization (i.e. the principles of safe manning) the following should be taken into account:
+- .1 the Safe Manning Document that details the agreed minimum levels of safe manning for each MASS that the ROC is expected to operate;
+- .2 optimal working conditions, configurations and ergonomics for all Human-Machine interfaces for the expected tasks to be performed by the human operator;
+- .3 the relative levels and structure of safe operational manning between shipboard and shore-side personnel;
+- .4 the operational emergency response plan for each MASS that the ROC is operating
+- .5 the risk assessment for the ROC as a whole; and
+- .6 the need for seamless handover and uninterrupted operational control during transitions between systems.
+
+**[15.4.4** The company responsible for management of a MASS operation should issue a crew list that encompasses both the MASS ship and the ROC personnel and respects the minimum safe manning certificate.]
+
+---
+* footnote: SOLAS chapter IX, ISM Code, SOLAS chapter V, A.1047(27), STCW, MLC 2006, as amended.
+
+#### Version 2: MANNING AND TRAINING (from MSC 110/5/1)
+
+**15.1** The purpose of this chapter is to ensure that all [MASS/ships], to which this Code applies, are appropriately manned and operated by trained, competent and experienced personnel.
+
+**15.2** To ensure all MASS are manned safely as outlined in 5.8 [Survey and Certification, MSMD], the following principles should be followed:
+
+**15.2.1** The applicable international instruments, regulations and principles of safe manning should be adhered to when structuring manning levels, including any ROC(s).
+
+**15.2.2** The minimum level of safe manning should ensure that the minimum number of any seafarers [and/or] any Remote Operators are sufficient to ensure the safety of life at sea, security, and the protection of the marine environment, as well as to ensure an effective response to emergency situations and failures of systems.
+
+**15.2.3** The roles of all personnel as outlined in the Safe Manning Document, should be clearly identified, defined and allocated.
+
+**15.2.4** The Safe Manning Document should define whether a particular capacity is to be fulfilled by a seafarer serving on board, or by a Remote Operator.
+
+**15.2.5** Clear lines of authority and responsibility between any Remote Operators and seafarers on board should be established to ensure the safety [and security] of personnel and operations.
+
+**15.2.6** All personnel defined by the Safe Manning Document should be competent and capable of performing their function(s) at the appropriate level(s) of responsibility, regardless of the [MASS/ship's] mode of operation.
+
+**15.2.7** [The role] of any seafarers or any Remote Operators [/persons] to safely operate the ship in any mode of operation must be determined by their qualification to perform the necessary functions for the level(s) of responsibility, as set out in the STCW Convention and Code 1978, as amended.
+
+**15.2.8** The minimum level of safe manning should take into account the impacts of fatigue on all personnel defined within the Safe Manning Document.³
+
+**15.2.9** The minimum level of safe manning should provide for sufficient hours of rest, taking into account applicable requirements, the provisions set out in the STCW Convention and Code 1978, as amended, and the provisions set out in IMO's principles of safe manning.
+
+**15.2.10** Regardless of the mode of operation, the master of the MASS is responsible for the safe operation of the MASS at all times.
+
+**15.2.11** The master responsible for a MASS may be located physically onboard or at a ROC.
+
+**15.2.12** If there is a crew or persons on board the master should be physically present on board to ensure the safety of personnel and operations.
+
+**[15.2.11bis** Except where seafarers and other persons are onboard, the master may discharge their duties from a ROC that is certified in accordance with this Code.]
+
+**15.2.13** Multiple Masters may be operationally responsible for a MASS on a single voyage, subject to the Administration's approval of the proposed minimum levels of safe manning.
+
+**15.2.14** Only one master should be responsible for a MASS at any given time.
+
+**15.2.15** Should a master remotely change command and take over responsibility for the [MASS/ship], sufficient time, resources, and procedures should be provided to ensure they are fully familiar with the ship and any ROC before assuming responsibility for the MASS.
+
+**15.2.16** An emergency plan should be provided at any ROC and, if applicable, on the vessel, that identifies the role and responsibilities of any Remote Operator(s) or seafarers on board.
+
+**15.2.17** When determining minimum levels of safe manning, consideration should be given to the capabilities and limitations of systems that enable connectivity between any ROC and the ship, including potential degradation of connectivity.
+
+**15.3** Where the levels of safe manning are to be met by the inclusion of Remote Operator(s):
+
+**15.3.1** They should be qualified and competent to a level not less than what is required under the STCW Convention and Code (1978), as amended to undertake their assigned tasks, duties and responsibilities from a ROC, that is certified in accordance with this Code.
+
+**[15.3.2** Consideration should be given to applicable social and labour regulatory frameworks required by the Administration.]
+
+**15.3.3** The manning structure should not result in a Remote Operator validating the safety of a task or operation which has been determined by the Administration to be required to be carried out on board.
+
+**15.3.4** Remote Operators shall not be assigned any task, duty or responsibility, which due to the characteristics of a ROC or the ship, cannot be discharged safely and effectively from the ROC.
+
+**15.3.5** Where Remote Operator(s) are performing watchkeeping duties, there must be a sufficient number of Remote Operators that meet the appropriate training and certification requirements to cover all watches, that are intended to be performed at a ROC.
+
+**15.3.6** Where a Remote Operator undertakes watchkeeping duties, sufficient time, resources, and procedures should be provided to ensure they are fully familiar with the ship and any ROC before assuming responsibility for a watch.
+
+**15.3.7** Consideration should be given to the duties of Remote Operators during emergencies, including their physical absence from the vessel and any degradation of connectivity.
+
+**15.3.8** The human-machine interface should be considered to ensure that any Remote Operator(s) are not overburdened by the number of systems and interfaces.
+
+**15.4** All personnel comprising the Safe Manning Document should be suitably experienced and have completed training appropriate to their level of responsibility.
+
+**15.4.1** Should levels of safe manning include any Remote Operator(s) or any seafarers on board the [MASS/ship], they should all be knowledgeable of the type and purpose of documentation associated with remote operations, including but not limited to operational manuals, failure modes and certification.
+
+**15.5** Where there are seafarers on board a [MASS/ship] they must have completed training to attain the competencies that are appropriate to the capacity to be filled and so that their duties and responsibility can be taken up, including:
+
+**15.5.1** Seafarers must, at a minimum, be qualified as required by the STCW Convention and Code (1978), as amended.
+
+**15.5.2** Where the MASS operation includes the use of a ROC certified in accordance with this Code, training and drills for emergencies and failures of systems should be conducted between onboard seafarers and any Remote Operators.
+
+**15.6** Any Remote Operator(s) at any level of responsibility, should have completed training to attain the competencies that are appropriate to the capacity to be filled and so that their duties and responsibility can be taken up, including:
+
+**15.6.1** Remote Operators performing watchkeeping duties are at a minimum qualified as set out in the STCW Convention and Code (1978), as amended, as if they were seafarers serving on board a seagoing ship.
+
+**15.6.2** The capacity of any Remote Operator(s) is determined by their qualification to perform necessary functions for the level(s) of responsibility, as set out in the STCW Convention and Code 1978, as amended.
+
+**15.6.3** Remote Operators should receive training in remote operations, including having demonstrated knowledge, understanding, proficiency and experience in the remote operation of a [MASS/ship].
+
+**15.6.4** Training in remote operations should enable a Remote Operator to understand the operation of the ROC and [MASS'/ships] system and its associated components.
+
+**15.6.5** Knowledge, understanding, proficiency and experience gained through undertaking training in remote operations, should enable Remote Operators to operate the vessel safely [and securely], with due regard for safety of life at sea, security, and protection of the marine environment.
+
+**15.6.6** Training in remote operations should be delivered as additional training to the qualifications and experience set out in the STCW Convention and Code (1978), as amended.
+
+**15.6.7** Any training in remote operations should include the demonstration and evaluation of competence, that is additional to the competence set out for the management, operational and support levels of responsibility, set out in the STCW Convention and Code (1978), as amended.
+
+**15.6.8** Remote Operators, on being assigned to a ship, must be trained, certified and familiarized with their specific duties and with all ROC and ship arrangements, installations, equipment, procedures, documentation and ship characteristics that are relevant to their routine or emergency duties.
+
+**15.6.9** Training or drills required of ships must be extended to any ROC(s) and Remote Operator(s) undertaking duties for that ship, including any specialized training required to safely operate a MASS remotely and respond to emergencies.
+
+**15.7** The provisions on working language set out in SOLAS V/14.3 should apply to [any MASS to which this Code applies] and should extend to any ROC(s), Remote Operator(s) and third parties.
+
+**15.8** The provisions set out in SOLAS V/14.4 should apply to any MASS, to which this Code applies and extends to any ROC(s), Remote Operator(s) and third parties.
+
+**15.9** The company responsible for managing a MASS should issue a crew list that includes any Remote Operator(s) and seafarers, ensuring compliance with the minimum Safe Manning Document. This list should be provided to any ROC and, if applicable, to the [MASS/ship].
+
+---
+³ MSC.1/Circ.1598 Guidelines on Fatigue
+
+### CHAPTER 16: MAINTENANCE
+
+The goal of this chapter is to ensure remotely operated and autonomous systems can be safely maintained, tested and inspected to ensure their reliability.
+
+**16.1** Maintenance of remotely controlled or autonomous systems should not result in unsafe events. This should include:
+- .1 systems should be able to be safely isolated and verified prior to commencing maintenance; and
+- .2 systems should be able to be restarted safely following maintenance allowing time for rebooting or reconfiguring of systems.
+
+**16.2** Qualified and authorized persons should be available on board or remotely to monitor the system and equipment faults and abnormal conditions to verify their cause and implement corrective actions.
+
+**16.3** Technical, operating and maintenance manuals or information should be made accessible to authorized operating and maintenance personnel.
+
+I'll convert this IMO MSC document to markdown format while preserving all the original content and structure.
+
+# MSC 110/WP.8 - Annex 1
+## PART 3: GOALS, FUNCTIONAL REQUIREMENTS AND EXPECTED PERFORMANCE
+
+### GENERAL
+
+Each chapter in this part consists of the Goal of the chapter, Functional Requirements (FR) to fulfil the Goal, and the Expected Performance (EP) associated with those functional requirements.
+
+Chapters should be applied in full, but application of specific chapters may be waived in agreement with the Administration as part of the approval process depending on the ConOps and/or MASS functions implemented.
+
+A ship should be considered to meet a functional requirement set out in this part when either:
+- a) the ship's design and arrangements meet all the expected performances associated with that functional requirement; or
+- b) part(s) or all of the ship's relevant design and arrangements have been reviewed and confirmed to be in accordance with regulation [X] of SOLAS chapter [Y], and any remaining parts of the ship meet the relevant expected performance.
+
+The functional requirements and associated expected performances should take into account the modes of operation of the ship and depending on human presence on board.
+
+---
+
+## CHAPTER 17: SAFETY OF NAVIGATION
+
+### 17.1 Goal
+The goal of this chapter is to provide for safe navigation.
+
+### 17.2 Functional requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant requirements for safety of navigation in SOLAS, as supplemented by the functional requirements of this chapter, and COLREG.
+
+### 17.3 General
+A MASS should comply with the following functional requirements for navigation in general.
+
+**17.3.1** The navigation equipment and systems for MASS operations should be designed, constructed, and installed to maintain their functionality under the expected conditions in the OE.
+
+- **EP 1:** An ANS or system for remote navigation should be installed enabling the functionalities described in the ConOps, other design documents and the task allocation summary.
+- **EP 2:** The use of remotely controlled or autonomous systems for non-navigation functions or tasks should not endanger the safe operation of an ANS or system for remote navigation.
+- **EP 3:** An ANS or system for remote navigation should effectively integrate and coordinate with other ship systems to prevent conflicting operational commands.
+- **EP 4:** In the event of failure of an ANS or system for remote navigation, the ship should be able to be operated safely by alternative means.
+
+**17.3.2** All data necessary for safe navigation should be available, in an appropriate format.
+
+- **EP 1:** A MASS should meet the requirements of SOLAS regulations V/19.2.1.4 and 19.2.1.5 by electronic means.
+- **EP 2:** Data used by or for input into an ANS or system for remote navigation should be in a machine-readable format.
+- **EP 3:** The voyage plan should be accessible, at all locations where navigation tasks are executed.
+
+### 17.4 Sub-functions for MASS navigation
+
+Any or all of the navigation sub-functions below could be autonomous or remotely controlled, while having different modes of operation according to the ConOps:
+
+*NOTE: The terms "automated/autonomous" and "remotely controlled/operated" should be finalized*
+
+1. Voyage planning: FR17.4.1-.2
+2. Situational awareness: FR17.4.3
+3. Collision and grounding risk avoidance: FR17.4.4
+4. Route execution and monitoring: FR17.4.5
+
+As such, a ship should comply with the relevant sub-function related requirements only when that sub-function is planned to be autonomous or remotely controlled.
+
+#### Voyage planning
+
+**17.4.1** An ANS or system for remote navigation that is provided with the voyage plan, should have a means to ensure that the voyage plan is safe for navigation.
+
+- **EP 1:** An ANS or system for remote navigation should provide a means to review and as necessary modify the voyage plan at all times.
+- **EP 2:** An ANS or system for remote navigation should be capable of confirming to the master that the voyage plan has been correctly received and is able to validate and implement the voyage plan received.
+- **EP 3:** The use of the voyage plan, and any modification of the voyage plan, by the ANS or system for remote navigation should not be possible without an approval, including verification of its correctness, by the master.
+
+**17.4.2** An ANS or system for remote navigation that is capable of developing the voyage plan should have a means to ensure that the voyage plan is safe for navigation, taking into account the Guidance developed by the Organization*.
+
+*Resolution. A.893(21)*
+
+- **EP 1:** An ANS or system for remote navigation should be provided with access to all nautical and hydrographic data necessary to appraise and plan a voyage.
+- **EP 2:** The voyage plan developed by an ANS or system for remote navigation should be presented in a form that allows the master to approve the plan.
+- **EP 3:** The voyage plan should provide an ANS and/or system for remote navigation and master with all information necessary to execute and monitor a voyage.
+- **EP 4:** An ANS or system for remote navigation should provide a means to review and as necessary modify the voyage plan at all times.
+
+#### Situational awareness
+
+**17.4.3** An ANS or system for remote navigation should maintain adequate situational awareness for the purpose of ensuring safe navigation.
+
+- **EP 1:** An ANS or system for remote navigation should continuously monitor all information necessary for safe navigation, based on the operational envelope.
+- **EP 2:** An ANS or system for remote navigation should continuously analyse the current situation in order to perceive and process navigational and environmental elements and project or predict future statuses. This should be done whilst considering the operation goals and objectives, the system's capability, and the mode of operation.
+- **EP 3:** An ANS or system for remote navigation should provide a means to make the information obtained and all analysis accessible as necessary.
+
+#### Collision and grounding avoidance
+
+**17.4.4** An ANS or system for remote navigation should ensure a means to take action in accordance with COLREG to prevent collisions, as well as allisions and groundings.
+
+- **EP 1:** Planning and decisions to alter course and/or speed should be both timely and in accordance with safe operating limits of ship.
+- **EP 2:** Any action to avoid collisions, allisions or groundings should be based on an assessment of the risk and the action necessary to avoid the risk of a collision, allision or grounding.
+- **EP 3:** Action to avoid collisions, allisions or groundings should not result in another situation which presents intolerable risk to the ship, other ships or the marine environment.
+
+#### Route execution and monitoring
+
+**17.4.5** An ANS or system for remote navigation should safely execute the voyage plan and appropriate monitoring should be provided.
+
+- **EP 1:** An ANS or system for remote navigation should execute the planned route within the pre-defined limits of allowable deviation taking into account the factors listed in the Guidance developed by the Organization*.
+  
+  *Resolution. A.893(21)*
+
+- **EP 2:** An ANS or system for remote navigation should notify the master if at any time the prevailing circumstances and conditions necessitate a deviation from the voyage plan.
+- **EP 3:** An ANS or system for remote navigation should continuously monitor the progress of the ship against the voyage plan and make the information available, as necessary.
+
+*NOTE: Following paragraph might be moved to other chapter of part 2*
+
+**[Chapter 2]** Proper records relating to navigation should be stored appropriately in order to contribute to safety of navigation and casualty investigations.
+
+- **EP 1:** Records of the movements, activities and time relating to an ANS [or system for remote navigation] should be maintained at the same level as that in voyage data recorders.
+- **[EP 2:** [In the case of MASS without crew on board,] records of navigational activities and daily reports should be automatically stored on board and at the ROC as appropriate.]
+- **[EP3:** Operation in a degraded state or executing a fallback response, and time of those events, relating to an ANS [or system for remote navigation] should be automatically stored on board and at the ROC, as appropriate.]
+
+### 17.5 Override
+
+An ANS or system for remote navigation should be capable of being overridden at all times from location(s) where control of a ship's navigation can be exercised.
+
+- **EP 1:** Means for overriding operation of an ANS or system for remote navigation should be simple to operate, independent of the systems that they control and allow for control to be taken immediately.
+
+---
+
+## CHAPTER 17bis: CONNECTIVITY
+
+### 17bis.1 Goal
+The goal of this chapter is to ensure that connectivity is maintained between the ROC(s) and ship, and that it is sufficient for the effective monitoring and/or control of ship functions.
+
+### 17bis.2 Functional Requirements
+To achieve the above-mentioned goal, a ship and ROC should meet the functional requirements of this chapter.
+
+**17bis.2.1** Connectivity between the ship and ROC is essential for remote monitoring or control and should be ensured as described in the ConOps.
+
+**17bis.2.2** The infrastructure for connectivity, and its performance, should be acceptable to the Administration.
+
+**17bis.2.3** Connectivity should be established and maintained according to quality of service accepted by the Administration. The quality of service should take into account factors such as bandwidth, data integrity, reliability, and network latency.
+
+**17bis.2.4** Connectivity should be such as to operate the MASS safely, considering operational limitations of connectivity, such as meteorological/oceanographic conditions.
+
+**17bis.2.5** Connectivity should be maintained at capacity in the case of a single failure in the system.
+
+**17bis.2.6** Redundancy measures should be implemented based on the risk assessment.
+
+**17bis.2.7** The data exchanged should be categorized and prioritized according to a pre-defined prioritization scheme to enable data with higher priority to prevail on lower prioritized data in case of decrease in communication capacity. The pre-defined categorization and prioritization of exchange of data should be included in the ConOps.
+
+**17bis.2.8** Connectivity requirements of the ship should be established for the different voyage phases and modes of operation.
+
+**17bis.2.9** Connectivity should be monitored against its performance requirements. When disconnection or performance degradation is detected, the system should automatically implement redundancy measures. If the connectivity requirements cannot be met, the MASS should enter a Fallback state.
+
+**17bis.2.10** Connectivity including Computer Based System (CBS)* onboard MASS and ROCs should ensure the integrity of transmitted data, and that they are sent from authorized authenticated sources. At the same time, measures** should be taken to protect the security of transmitted data.
+
+*\* Refer to IACS UR E22, UR E26 and UR E27, latest version.*
+
+*\*\* Refer to MSC.1/Circ.1639 and MSC-FAL.1/Circ.3/Rev. 2.*
+
+---
+
+## CHAPTER 18: REMOTE OPERATIONS
+
+### 18.1 Goal
+The goal of this chapter is to ensure the safe and secure remote operation of MASS systems or functions, when duties and responsibilities for safe operation are assigned to a ROC.
+
+### 18.2 Functional Requirements
+To achieve the above-mentioned goal, a ship and ROC should meet the functional requirements of this chapter.
+
+**18.2.1** A ROC should be at a suitable location to enable the safe and secure remote operation.
+
+- **EP 1:** A ROC should have:
+  1. facilities that are secure and protected from unauthorized access;
+  2. means to enable reliable connectivity and communication between ROC(s) and the ship, third parties and persons on board;
+  3. facilities to allow access to, and sharing of, certificates and other documents required to demonstrate that the ship is compliant with applicable international, national and regional requirements;
+  4. arrangements, such that the failure and subsequent recovery of the ROC would not result in an unsafe state or intolerable risk on or around the ship in service;
+  5. verified and validated systems to support its operation;
+  6. sufficient and relevant qualified personnel to enable safe MASS operations; and
+  7. facilities to ensure data and information used, produced, sent or received is retained in reliable and tamper-proof storage and at a suitable standard of data quality, and considering the SOLAS requirements for Voyage Data Recorders.
+
+**18.2.2** A remote control station(s) should be provided to ensure the safe and secure remote operation.
+
+- **EP 1:** A remote control station should:
+  1. have appropriate verified and validated systems;
+  1bis. have means to monitor the communication and information received or transmitted by the ship and to communicate through the ship in accordance with relevant communication requirements;
+  2. provide sufficient and accurate data and information to enable the remote operator(s) to carry out their role(s) effectively;
+  3. be fully compatible with the ship systems it is assigned;
+  4. be tested to ensure that when installing and updating system(s) that the related onboard equipment and devices have appropriate compatibility and interoperability;
+  5. ensure failure and recovery of the control station(s) would not result in an unsafe state or intolerable risk, on or around the ship in service; and
+  6. be designed and operated in such a way that its location does not impact on its ability to control the ship.
+
+**18.2.3** Verified and validated systems and interfaces between remote control station(s) and the ship should be provided to ensure the remote operator can operate the ship safely and securely.
+
+- **EP 1:** This will be accomplished by ensuring the remote operator is able to:
+  1. maintain a watch, as appropriate and applicable, and in a manner conforming to the principles of watchkeeping*;
+     
+     *Refer to STCW regulation VIII/2*
+  
+  2. send and receive sufficient, timely and accurate information/commands effectively and securely between the ROC, the ship, third parties, and persons on board;
+  3. take all decisions necessary to ensure the safe remote operation of the ship, including support for abandonment of the ship;
+  4. know the status of the connectivity at the remote control station(s) with the ship and, where relevant, with third parties;
+  5. know which systems can be controlled, and from where control is being exercised;
+  6. know when conditions on the ship or at the ROC deviate from the OE; and
+  7. monitor the condition and operation of equipment and systems and take measures to mitigate deficiencies.
+
+**18.2.4** The transfer of operation should be safe and secure.
+
+- **EP 1:** Safe transfer of operation of the ship will be accomplished by ensuring:
+  1. transfer and synchronization of all necessary information is possible between remote control station(s), ROC(s) and the ship;
+  2. operation can be transferred safely and securely during failure and/or recovery or an emergency situation at the ROC or remote control station(s);
+  3. that control cannot be exercised at multiple locations at the same time;
+  3bis. that the present control location is clearly indicated both in ROC and on board the ship; and
+  4. there is no loss of control of the ship when the operation is transferred.
+
+**18.2.5** The software used for remote operation should be appropriately managed and maintained to ensure the safe and secure operation.
+
+- **EP 1:** The software used should be:
+  0bis. designed in accordance with chapter 10 (Software principles), taking into account chapter 14 (Alert management);
+  1. integrated, managed, maintained and supported throughout its operational life;
+  2. able to receive, recognize and assist with the prioritization of emergency and non-emergency situations, occurring on board the ship to enable the remote operator(s) to carry out their role(s) effectively; and
+  3. presented in a form that allows the remote operator(s) to be able to understand the information transmitted to the ROC.
+
+---
+
+## CHAPTER 19: STRUCTURE, SUBDIVISION, STABILITY AND WATERTIGHT INTEGRITY
+
+### 19.1 Goal
+The goal of this chapter is to ensure that the structure, subdivision, stability, and watertight integrity are within acceptable limits.
+
+### 19.2 Functional Requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant SOLAS structural, stability, subdivision and watertight integrity requirements, as well as the 1966 International Load Line Convention/1988 Protocol and the 2008 Intact Stability Code, as supplemented by the functional requirements of this chapter.
+
+**19.2.1** A stability control system (SCS) should be in place, capable of continuously assessing the ship's intact stability during its operation as well as supporting the assessment of the survivability of the ship in case of damage.
+
+- **EP 1:** The SCS should be able to:
+  1. continuously assess the ship's intact stability; and
+  2. identify when ship's stability is outside the OE;
+  
+  including during fallback states, to enable timely mitigation.
+
+- **EP 2:** The SCS should be able to continuously monitor the loading conditions towards the longitudinal strength.
+- **EP 3:** The SCS should be able to support the assessment of survivability of the ship in case of damage by providing information on any internal flooding, damage extents, draughts and ship attitude.
+- **EP 4:** The SCS should have resilience to single points of failure.
+- **EP 5:** The SCS should be able to detect existing or predictable stability failures and raise alerts.
+- **EP 6:** The SCS should be able to suggest mitigation actions when the system has detected failure with intact stability.
+- **EP 7:** The SCS should be able to transmit data to relevant systems and operators in an appropriate format.
+- **EP 8:** The SCS should be able to be continuously supervised by an independent/supervising function, or human operator, capable of detecting failures or degraded performance.
+
+**19.2.2** Accurate and reliable data should be acquired to ensure that the ship stability, subdivision, weathertight and watertight integrity can be maintained under all conditions.
+
+**19.2.3** Means should be provided to reduce the risk of excessive motions of the ship in adverse sea conditions.
+
+- **EP 1:** The SCS should be able to continuously measure amplitudes and accelerations of ship motions.
+- **EP 2:** The SCS should be able to detect when the ship's motions exceed predefined thresholds based on the OE of the ship, and trigger relevant alerts.
+- **EP 3:** The SCS should be able to suggest adjusting speed and course, in response to the wave direction to ensure compliance with predefined limits for the ship's movements.
+- **EP 4:** The SCS should be able to suggest appropriate mitigation actions if the approved voyage plan may cause the ship to exceed its thresholds.
+
+---
+
+## CHAPTER 20: FIRE PROTECTION, FIRE DETECTION AND FIRE EXTINCTION
+
+### 20.1 Goal
+The goal of this chapter is to ensure that fire-safety systems and equipment are effective.
+
+### 20.2 Functional requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant SOLAS fire safety objectives and requirements, as supplemented by the functional requirements of this chapter.
+
+**20.2.1** A ship should remain under control or enter a fallback state during and following a fire event in any single compartment that is directly linked to the control of the ship.
+
+**20.2.2** A fire which is limited to a single compartment that does not have a direct link to the control of the ship, should not cause a loss of control or lead to a fallback state.
+
+**20.2.3** Means should be provided to detect, confirm, and locate a fire incident.
+
+- **EP 1:** All alarms related to fire safety systems should be routed to control station(s).
+- **EP 2:** Means for timely detection of a fire should be provided in all spaces with a fire risk.
+- **EP 3:** An operator should be made aware of the detection and location of a fire along with the status of, and any actions taken by, fire protection systems.
+- **EP 4:** After a fire detection alarm is activated, means should be provided to confirm a fire using a different detection source.
+- **EP 5:** If alarm signals are not acknowledged, a secondary alarm should be automatically activated at control station(s) and throughout the ship.
+- **EP 6:** After detection and confirmation of the fire, means should be provided to locate the seat of fire, so that the most appropriate fire-extinguishing means may be activated.
+
+**20.2.4** Means should be provided to enable the appropriate use of fire-extinguishing systems, taking into account possible human presence.
+
+- **EP 1:** Information and instructions in relation to fire safety should be provided to any personnel boarding the ship.
+- **EP 2:** Fire-extinguishing systems should be able to be safely isolated and verified prior to compartment access.
+- **EP 3:** Fire-extinguishing systems should provide onboard indication and warning prior to, and during, activation.
+- **EP 4:** The stability of the ship should be monitored during any fire-fighting operation.
+
+**20.2.5** Means should be provided to monitor and assess fire growth and fire-fighting effectiveness during and after fire.
+
+- **EP 1:** Means should be provided to assess any smoke development.
+- **EP 2:** Means should be provided to assess the temperature development in spaces adjacent to the compartment affected by the fire.
+
+**20.2.6** Means should be provided to enable the remote and onboard control of all active fire protection measures, including containment measures.
+
+- **EP 1:** All active fire protection measures should be individually controllable, allowing activation, deactivation, and status monitoring at control station(s).
+- **EP 2:** Means should be available to detect fire protection systems related faults and provide indication at control station(s).
+
+**20.2.7** Means should be provided to facilitate an intervention from external fire responders.
+
+- **EP 1:** Procedures should be in place to transmit any relevant information and data to external fire responders during and following a fire incident.
+- **EP 2:** Means of communication between the external fire responders and the ship and ROC should be ensured during and following a fire incident.
+
+---
+
+## CHAPTER 22: SPECIAL MEASURES TO ENHANCE MARITIME SECURITY
+
+### 22.1 Goal
+The goal of this chapter is to ensure adequate security.
+
+### 22.2 Functional Requirements
+To achieve the above-mentioned goal, the ship and ROC should comply with the requirements of the special measures to enhance maritime security in SOLAS chapter XI-2 "Special Measures to Enhance Maritime Security" and the ISPS Code, as supplemented by the functional requirements of this chapter.
+
+**22.2.1** Means should be provided to enable the assessment of security effectiveness for autonomous and remotely operated systems.
+
+**22.2.2** The ship should be able to communicate and exchange security-related information with the ROC and, where appropriate, to flag State Administrations, Contracting Governments, port Authorities, port facilities and company upon request taking into account the sensitivity of the information and authorization to access security-sensitive information.
+
+**22.2.3** The use of autonomous security systems should not negatively impact on the:
+1. physical security;
+2. structural integrity;
+3. personnel protection systems;
+4. procedural policies including the Ship Security Plan (SSP);
+5. radio and telecommunication systems including computer systems and networks; and
+6. any other areas that may, if damaged or used for illicit observation, pose a risk to persons, property, or operations on board the ship.
+
+**22.2.4** In the event of the security of a ROC being compromised, measures and procedures should be in place to ensure that this does not subsequently impact the security of a remotely operated or autonomous ship.
+
+- **EP 1:** There should be a separate mechanism for safely isolating and shutting down communications and control when the security of the ROC has been compromised.
+- **EP 2:** The ship should either enter a predefined fallback state until secure communications can be established with a secure ROC or, if available, control can be assumed at a separate control location, which may include the ship itself.
+- **EP 3:** Communications between a ROC experiencing an incident, or having experienced an incident, and the ship should only be reestablished once the security of the ROC has been ensured and validated.
+- **EP 4:** Procedures should be documented in the SSP, with plans in place to state where control will be assumed, and how communications will be reestablished.
+
+**22.2.5** Measures and procedures should be in place onboard a remotely operated or autonomous ship to ensure that outcomes in the event of a security incident are not less than that of a conventional ship, considering the safety of any crew, other ships and the marine environment.
+
+- **EP 1:** An appropriate level of communication between the ship and the ROC should be maintained during and following a security event onboard, or impacting upon, a ship.
+- **EP 2:** Systems should allow for coordination between the ship and third-party responders, and should provide sufficient information to ensure the safety of external responders, other ships, and the marine environment.
+- **EP 3:** Sufficient means should be included in the design and implementation of communication systems such that reasonably foreseeable security incidents would not result in damage to, or compromise of, all systems.
+- **EP 4:** In the event communication is lost following a security incident, the ship may need to enter an appropriate fallback state and be capable of maintaining that state during and following the event to the degree necessary.
+
+**22.2.6** Means should be provided to implement the requirements of the Ship Security Plan meeting the requirements laid out in the ISPS Code. The security of the ship should not be compromised by the use of autonomous and remotely operated systems.
+
+- **EP 1:** The role of remote operators, and those with responsibilities that have been transferred from the ship, should be required to be addressed in the SSP requirements under the ISPS Code, section A/9.4.
+- **EP 2:** The SSP should be stored such that duly authorized personnel required to take action are able to access it at any time.
+- **EP 3:** Record of activities addressed in the SSP should be stored such that duly authorized personnel required to access and amend them are able to do so at any time.
+
+**22.2.7** Means should be implemented to prevent unauthorized access to autonomous and remotely operated ships, to ensure the security of the ship, its cargo and onboard personnel.
+
+- **EP 1:** Systems should be able to detect physical intrusion by unauthorized personnel.
+- **EP 2:** Systems should be able to detect physical attacks on the ship during its voyage.
+- **EP 3:** Systems and processes should be able to detect cyber intrusion or interference.
+- **EP 4:** Means should be provided to control access to the ship, as well as the embarkation of persons and their effects.
+- **EP 5:** Systems deployed to serve security purposes should themselves be secure, resilient to attempts to compromise them, and exchange information in such a way that it does not compromise the security of the data.
+
+**22.2.8** Where responsibilities are transferred from onboard crew to remote operators, they should be considered to be bound by the requirements of the ISPS Code.
+
+- **EP 1:** Relevant shore-based persons should be required to take part in training, drills and exercises as laid out in the ISPS Code.
+- **EP 2:** Records of the activities laid out in the ISPS Code, section A/10.1, should include the involvement of remote operators.
+- **EP 3:** When conducting ship security assessments, identification of weaknesses, including human factors, in the infrastructure, policies and procedures should consider remote operators.
+
+---
+
+## CHAPTER 23: SEARCH AND RESCUE
+
+### 23.1 Goal
+The goal of this chapter is to ensure that the duties and tasks regarding Search and Rescue are fulfilled.
+
+### 23.2 Functional requirements
+To achieve the above-mentioned goal, a master should comply with all relevant requirements in SOLAS for providing assistance to persons in distress, and as provided in the functional requirements of this chapter and applicable international law.
+
+**23.2.1** A MASS and its associated ROC should be provided with a ship specific plan and procedures which enable the master to provide assistance to persons in distress when obligated to do so.
+
+- **EP 1:** Rescue equipment provided onboard should be able to be safely used independently of the presence of crew.⁴
+- **EP 2:** Persons retrieved onboard should be able to be safely accommodated on board until such time as they can be delivered to a place of safety.
+- **EP 3:** Persons retrieved onboard should be provided with information and arrangements to communicate with the ROC and access any arrangements provided for their safety.
+
+⁴ *According to SOLAS regulation III/I7-1 and the Guidelines for the Development of Plans and Procedures for the Recovery of Persons from the Water (MSC.1/Circ.1447), the Guide to Recovery Techniques (MSC.1/Circ.1182) and the Guide for Cold Water Survival (MSC.1/Circ.1185/Rev.1).*
+
+---
+
+## CHAPTER 24: CARRIAGE OF CARGOES
+
+### 24.1 Goal
+The goal of this chapter is to provide for the carriage of cargoes in a manner that ensures that the ship, persons on board and the environment are safe.
+
+### 24.2 Functional requirements
+To achieve the above-mentioned goal, the ship should comply with the requirements of SOLAS chapters VI and VII and relevant regulations relating to the carriage of cargoes, as supplemented by the functional requirements of this chapter.
+
+**24.2.1** Means should be provided to enable for the safe carriage of cargo involving autonomous or remote operated systems and functions.
+
+- **EP 1:** Consideration should be given to the need for any special arrangements regarding:
+  1. transfer of cargo information;
+  2. cargo handling, stowing and securing;
+  3. cargo monitoring; and
+  4. emergency response.
+
+---
+
+## CHAPTER 25: ANCHORING, TOWING AND MOORING
+
+### 25.1 Goal
+The goal of this chapter is to ensure safe and secure anchoring, towing and mooring operations.
+
+### 25.2 Functional Requirements
+To achieve the above-mentioned goal, the ship should comply with the functional requirements of this chapter. It should be noted that these functions may be treated independently from each other.
+
+**25.2.1** Remotely operated or autonomous anchoring, towing and mooring arrangements should allow the safe conduct of these operations.
+
+**25.2.2** Where anchoring, towing and mooring operations involve a ROC, the remote operator should have sufficient information, oversight and control to enable safe and effective operations with due consideration to interactions with any third parties, infrastructure and/or involved personnel.
+
+**25.2.3** The emergency towing arrangements in SOLAS regulation II-1/3-4 should be considered as applying to all ships, and means should be provided to enable remote or autonomous activation where no alternative means of rapid deployment are available.
+
+**25.2.4** Anchoring arrangements should be able to be activated remotely or autonomously during fallback states and in emergency situations.
+
+---
+
+## CHAPTER 26: MACHINERY AND ELECTRICAL INSTALLATIONS
+
+### 26.1 Goal
+The goal of this chapter is to provide for safe and reliable machinery and electrical installations.
+
+### 26.2 Functional Requirements
+To achieve the above-mentioned goal, the ship should comply with the requirements for machinery and electrical installations in SOLAS, as supplemented by the functional requirements of this chapter.
+
+**26.2.1** Machinery and electrical installations should be capable of delivering the required functionality to ensure their availability, including backup functions, sufficient for the autonomous and remotely controlled functions to be maintained during normal operation, fallback states and emergency situations, taking into account connectivity and remote control.
+
+**26.2.2** Electrical power production and distribution should be capable of maintaining the ship in normal operation and fallback states, and ensuring that essential systems remain operational in emergency situations for the period(s) specified by SOLAS.
+
+**26.2.3** Machinery and electrical installations should be able to support predefined fallback states, and be fault tolerant to connectivity being lost or below an acceptable threshold.
+
+**26.2.4** Monitoring should be provided to assess system robustness, reliability and effectiveness.
+
+**26.2.5** Measures should be provided to prevent the activation of machinery or electrical systems by remote or autonomous systems when operated or serviced by authorized persons on board, and to ensure the safe reactivation upon completion.
+
+**26.2.6** Measures should be provided to detect machinery or electrical system malfunctions or failures to maintain safe operation in normal and emergency situations.
+
+**26.2.7** Measures to ensure availability and resilience should be provided according to the mode of operation to respond to machinery or electrical system malfunctions and failures.
+
+I'll convert this IMO MSC document to markdown format while preserving all the original content and structure.
+
+# MSC 110/WP.8 - Annex 1
+## PART 3: GOALS, FUNCTIONAL REQUIREMENTS AND EXPECTED PERFORMANCE
+
+### GENERAL
+
+Each chapter in this part consists of the Goal of the chapter, Functional Requirements (FR) to fulfil the Goal, and the Expected Performance (EP) associated with those functional requirements.
+
+Chapters should be applied in full, but application of specific chapters may be waived in agreement with the Administration as part of the approval process depending on the ConOps and/or MASS functions implemented.
+
+A ship should be considered to meet a functional requirement set out in this part when either:
+- a) the ship's design and arrangements meet all the expected performances associated with that functional requirement; or
+- b) part(s) or all of the ship's relevant design and arrangements have been reviewed and confirmed to be in accordance with regulation [X] of SOLAS chapter [Y], and any remaining parts of the ship meet the relevant expected performance.
+
+The functional requirements and associated expected performances should take into account the modes of operation of the ship and depending on human presence on board.
+
+---
+
+## CHAPTER 17: SAFETY OF NAVIGATION
+
+### 17.1 Goal
+The goal of this chapter is to provide for safe navigation.
+
+### 17.2 Functional requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant requirements for safety of navigation in SOLAS, as supplemented by the functional requirements of this chapter, and COLREG.
+
+### 17.3 General
+A MASS should comply with the following functional requirements for navigation in general.
+
+**17.3.1** The navigation equipment and systems for MASS operations should be designed, constructed, and installed to maintain their functionality under the expected conditions in the OE.
+
+- **EP 1:** An ANS or system for remote navigation should be installed enabling the functionalities described in the ConOps, other design documents and the task allocation summary.
+- **EP 2:** The use of remotely controlled or autonomous systems for non-navigation functions or tasks should not endanger the safe operation of an ANS or system for remote navigation.
+- **EP 3:** An ANS or system for remote navigation should effectively integrate and coordinate with other ship systems to prevent conflicting operational commands.
+- **EP 4:** In the event of failure of an ANS or system for remote navigation, the ship should be able to be operated safely by alternative means.
+
+**17.3.2** All data necessary for safe navigation should be available, in an appropriate format.
+
+- **EP 1:** A MASS should meet the requirements of SOLAS regulations V/19.2.1.4 and 19.2.1.5 by electronic means.
+- **EP 2:** Data used by or for input into an ANS or system for remote navigation should be in a machine-readable format.
+- **EP 3:** The voyage plan should be accessible, at all locations where navigation tasks are executed.
+
+### 17.4 Sub-functions for MASS navigation
+
+Any or all of the navigation sub-functions below could be autonomous or remotely controlled, while having different modes of operation according to the ConOps:
+
+*NOTE: The terms "automated/autonomous" and "remotely controlled/operated" should be finalized*
+
+1. Voyage planning: FR17.4.1-.2
+2. Situational awareness: FR17.4.3
+3. Collision and grounding risk avoidance: FR17.4.4
+4. Route execution and monitoring: FR17.4.5
+
+As such, a ship should comply with the relevant sub-function related requirements only when that sub-function is planned to be autonomous or remotely controlled.
+
+#### Voyage planning
+
+**17.4.1** An ANS or system for remote navigation that is provided with the voyage plan, should have a means to ensure that the voyage plan is safe for navigation.
+
+- **EP 1:** An ANS or system for remote navigation should provide a means to review and as necessary modify the voyage plan at all times.
+- **EP 2:** An ANS or system for remote navigation should be capable of confirming to the master that the voyage plan has been correctly received and is able to validate and implement the voyage plan received.
+- **EP 3:** The use of the voyage plan, and any modification of the voyage plan, by the ANS or system for remote navigation should not be possible without an approval, including verification of its correctness, by the master.
+
+**17.4.2** An ANS or system for remote navigation that is capable of developing the voyage plan should have a means to ensure that the voyage plan is safe for navigation, taking into account the Guidance developed by the Organization*.
+
+*Resolution. A.893(21)*
+
+- **EP 1:** An ANS or system for remote navigation should be provided with access to all nautical and hydrographic data necessary to appraise and plan a voyage.
+- **EP 2:** The voyage plan developed by an ANS or system for remote navigation should be presented in a form that allows the master to approve the plan.
+- **EP 3:** The voyage plan should provide an ANS and/or system for remote navigation and master with all information necessary to execute and monitor a voyage.
+- **EP 4:** An ANS or system for remote navigation should provide a means to review and as necessary modify the voyage plan at all times.
+
+#### Situational awareness
+
+**17.4.3** An ANS or system for remote navigation should maintain adequate situational awareness for the purpose of ensuring safe navigation.
+
+- **EP 1:** An ANS or system for remote navigation should continuously monitor all information necessary for safe navigation, based on the operational envelope.
+- **EP 2:** An ANS or system for remote navigation should continuously analyse the current situation in order to perceive and process navigational and environmental elements and project or predict future statuses. This should be done whilst considering the operation goals and objectives, the system's capability, and the mode of operation.
+- **EP 3:** An ANS or system for remote navigation should provide a means to make the information obtained and all analysis accessible as necessary.
+
+#### Collision and grounding avoidance
+
+**17.4.4** An ANS or system for remote navigation should ensure a means to take action in accordance with COLREG to prevent collisions, as well as allisions and groundings.
+
+- **EP 1:** Planning and decisions to alter course and/or speed should be both timely and in accordance with safe operating limits of ship.
+- **EP 2:** Any action to avoid collisions, allisions or groundings should be based on an assessment of the risk and the action necessary to avoid the risk of a collision, allision or grounding.
+- **EP 3:** Action to avoid collisions, allisions or groundings should not result in another situation which presents intolerable risk to the ship, other ships or the marine environment.
+
+#### Route execution and monitoring
+
+**17.4.5** An ANS or system for remote navigation should safely execute the voyage plan and appropriate monitoring should be provided.
+
+- **EP 1:** An ANS or system for remote navigation should execute the planned route within the pre-defined limits of allowable deviation taking into account the factors listed in the Guidance developed by the Organization*.
+  
+  *Resolution. A.893(21)*
+
+- **EP 2:** An ANS or system for remote navigation should notify the master if at any time the prevailing circumstances and conditions necessitate a deviation from the voyage plan.
+- **EP 3:** An ANS or system for remote navigation should continuously monitor the progress of the ship against the voyage plan and make the information available, as necessary.
+
+*NOTE: Following paragraph might be moved to other chapter of part 2*
+
+**[Chapter 2]** Proper records relating to navigation should be stored appropriately in order to contribute to safety of navigation and casualty investigations.
+
+- **EP 1:** Records of the movements, activities and time relating to an ANS [or system for remote navigation] should be maintained at the same level as that in voyage data recorders.
+- **[EP 2:** [In the case of MASS without crew on board,] records of navigational activities and daily reports should be automatically stored on board and at the ROC as appropriate.]
+- **[EP3:** Operation in a degraded state or executing a fallback response, and time of those events, relating to an ANS [or system for remote navigation] should be automatically stored on board and at the ROC, as appropriate.]
+
+### 17.5 Override
+
+An ANS or system for remote navigation should be capable of being overridden at all times from location(s) where control of a ship's navigation can be exercised.
+
+- **EP 1:** Means for overriding operation of an ANS or system for remote navigation should be simple to operate, independent of the systems that they control and allow for control to be taken immediately.
+
+---
+
+## CHAPTER 17bis: CONNECTIVITY
+
+### 17bis.1 Goal
+The goal of this chapter is to ensure that connectivity is maintained between the ROC(s) and ship, and that it is sufficient for the effective monitoring and/or control of ship functions.
+
+### 17bis.2 Functional Requirements
+To achieve the above-mentioned goal, a ship and ROC should meet the functional requirements of this chapter.
+
+**17bis.2.1** Connectivity between the ship and ROC is essential for remote monitoring or control and should be ensured as described in the ConOps.
+
+**17bis.2.2** The infrastructure for connectivity, and its performance, should be acceptable to the Administration.
+
+**17bis.2.3** Connectivity should be established and maintained according to quality of service accepted by the Administration. The quality of service should take into account factors such as bandwidth, data integrity, reliability, and network latency.
+
+**17bis.2.4** Connectivity should be such as to operate the MASS safely, considering operational limitations of connectivity, such as meteorological/oceanographic conditions.
+
+**17bis.2.5** Connectivity should be maintained at capacity in the case of a single failure in the system.
+
+**17bis.2.6** Redundancy measures should be implemented based on the risk assessment.
+
+**17bis.2.7** The data exchanged should be categorized and prioritized according to a pre-defined prioritization scheme to enable data with higher priority to prevail on lower prioritized data in case of decrease in communication capacity. The pre-defined categorization and prioritization of exchange of data should be included in the ConOps.
+
+**17bis.2.8** Connectivity requirements of the ship should be established for the different voyage phases and modes of operation.
+
+**17bis.2.9** Connectivity should be monitored against its performance requirements. When disconnection or performance degradation is detected, the system should automatically implement redundancy measures. If the connectivity requirements cannot be met, the MASS should enter a Fallback state.
+
+**17bis.2.10** Connectivity including Computer Based System (CBS)* onboard MASS and ROCs should ensure the integrity of transmitted data, and that they are sent from authorized authenticated sources. At the same time, measures** should be taken to protect the security of transmitted data.
+
+*\* Refer to IACS UR E22, UR E26 and UR E27, latest version.*
+
+*\*\* Refer to MSC.1/Circ.1639 and MSC-FAL.1/Circ.3/Rev. 2.*
+
+---
+
+## CHAPTER 18: REMOTE OPERATIONS
+
+### 18.1 Goal
+The goal of this chapter is to ensure the safe and secure remote operation of MASS systems or functions, when duties and responsibilities for safe operation are assigned to a ROC.
+
+### 18.2 Functional Requirements
+To achieve the above-mentioned goal, a ship and ROC should meet the functional requirements of this chapter.
+
+**18.2.1** A ROC should be at a suitable location to enable the safe and secure remote operation.
+
+- **EP 1:** A ROC should have:
+  1. facilities that are secure and protected from unauthorized access;
+  2. means to enable reliable connectivity and communication between ROC(s) and the ship, third parties and persons on board;
+  3. facilities to allow access to, and sharing of, certificates and other documents required to demonstrate that the ship is compliant with applicable international, national and regional requirements;
+  4. arrangements, such that the failure and subsequent recovery of the ROC would not result in an unsafe state or intolerable risk on or around the ship in service;
+  5. verified and validated systems to support its operation;
+  6. sufficient and relevant qualified personnel to enable safe MASS operations; and
+  7. facilities to ensure data and information used, produced, sent or received is retained in reliable and tamper-proof storage and at a suitable standard of data quality, and considering the SOLAS requirements for Voyage Data Recorders.
+
+**18.2.2** A remote control station(s) should be provided to ensure the safe and secure remote operation.
+
+- **EP 1:** A remote control station should:
+  1. have appropriate verified and validated systems;
+  1bis. have means to monitor the communication and information received or transmitted by the ship and to communicate through the ship in accordance with relevant communication requirements;
+  2. provide sufficient and accurate data and information to enable the remote operator(s) to carry out their role(s) effectively;
+  3. be fully compatible with the ship systems it is assigned;
+  4. be tested to ensure that when installing and updating system(s) that the related onboard equipment and devices have appropriate compatibility and interoperability;
+  5. ensure failure and recovery of the control station(s) would not result in an unsafe state or intolerable risk, on or around the ship in service; and
+  6. be designed and operated in such a way that its location does not impact on its ability to control the ship.
+
+**18.2.3** Verified and validated systems and interfaces between remote control station(s) and the ship should be provided to ensure the remote operator can operate the ship safely and securely.
+
+- **EP 1:** This will be accomplished by ensuring the remote operator is able to:
+  1. maintain a watch, as appropriate and applicable, and in a manner conforming to the principles of watchkeeping*;
+     
+     *Refer to STCW regulation VIII/2*
+  
+  2. send and receive sufficient, timely and accurate information/commands effectively and securely between the ROC, the ship, third parties, and persons on board;
+  3. take all decisions necessary to ensure the safe remote operation of the ship, including support for abandonment of the ship;
+  4. know the status of the connectivity at the remote control station(s) with the ship and, where relevant, with third parties;
+  5. know which systems can be controlled, and from where control is being exercised;
+  6. know when conditions on the ship or at the ROC deviate from the OE; and
+  7. monitor the condition and operation of equipment and systems and take measures to mitigate deficiencies.
+
+**18.2.4** The transfer of operation should be safe and secure.
+
+- **EP 1:** Safe transfer of operation of the ship will be accomplished by ensuring:
+  1. transfer and synchronization of all necessary information is possible between remote control station(s), ROC(s) and the ship;
+  2. operation can be transferred safely and securely during failure and/or recovery or an emergency situation at the ROC or remote control station(s);
+  3. that control cannot be exercised at multiple locations at the same time;
+  3bis. that the present control location is clearly indicated both in ROC and on board the ship; and
+  4. there is no loss of control of the ship when the operation is transferred.
+
+**18.2.5** The software used for remote operation should be appropriately managed and maintained to ensure the safe and secure operation.
+
+- **EP 1:** The software used should be:
+  0bis. designed in accordance with chapter 10 (Software principles), taking into account chapter 14 (Alert management);
+  1. integrated, managed, maintained and supported throughout its operational life;
+  2. able to receive, recognize and assist with the prioritization of emergency and non-emergency situations, occurring on board the ship to enable the remote operator(s) to carry out their role(s) effectively; and
+  3. presented in a form that allows the remote operator(s) to be able to understand the information transmitted to the ROC.
+
+---
+
+## CHAPTER 19: STRUCTURE, SUBDIVISION, STABILITY AND WATERTIGHT INTEGRITY
+
+### 19.1 Goal
+The goal of this chapter is to ensure that the structure, subdivision, stability, and watertight integrity are within acceptable limits.
+
+### 19.2 Functional Requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant SOLAS structural, stability, subdivision and watertight integrity requirements, as well as the 1966 International Load Line Convention/1988 Protocol and the 2008 Intact Stability Code, as supplemented by the functional requirements of this chapter.
+
+**19.2.1** A stability control system (SCS) should be in place, capable of continuously assessing the ship's intact stability during its operation as well as supporting the assessment of the survivability of the ship in case of damage.
+
+- **EP 1:** The SCS should be able to:
+  1. continuously assess the ship's intact stability; and
+  2. identify when ship's stability is outside the OE;
+  
+  including during fallback states, to enable timely mitigation.
+
+- **EP 2:** The SCS should be able to continuously monitor the loading conditions towards the longitudinal strength.
+- **EP 3:** The SCS should be able to support the assessment of survivability of the ship in case of damage by providing information on any internal flooding, damage extents, draughts and ship attitude.
+- **EP 4:** The SCS should have resilience to single points of failure.
+- **EP 5:** The SCS should be able to detect existing or predictable stability failures and raise alerts.
+- **EP 6:** The SCS should be able to suggest mitigation actions when the system has detected failure with intact stability.
+- **EP 7:** The SCS should be able to transmit data to relevant systems and operators in an appropriate format.
+- **EP 8:** The SCS should be able to be continuously supervised by an independent/supervising function, or human operator, capable of detecting failures or degraded performance.
+
+**19.2.2** Accurate and reliable data should be acquired to ensure that the ship stability, subdivision, weathertight and watertight integrity can be maintained under all conditions.
+
+**19.2.3** Means should be provided to reduce the risk of excessive motions of the ship in adverse sea conditions.
+
+- **EP 1:** The SCS should be able to continuously measure amplitudes and accelerations of ship motions.
+- **EP 2:** The SCS should be able to detect when the ship's motions exceed predefined thresholds based on the OE of the ship, and trigger relevant alerts.
+- **EP 3:** The SCS should be able to suggest adjusting speed and course, in response to the wave direction to ensure compliance with predefined limits for the ship's movements.
+- **EP 4:** The SCS should be able to suggest appropriate mitigation actions if the approved voyage plan may cause the ship to exceed its thresholds.
+
+---
+
+## CHAPTER 20: FIRE PROTECTION, FIRE DETECTION AND FIRE EXTINCTION
+
+### 20.1 Goal
+The goal of this chapter is to ensure that fire-safety systems and equipment are effective.
+
+### 20.2 Functional requirements
+To achieve the above-mentioned goal, a ship should comply with all relevant SOLAS fire safety objectives and requirements, as supplemented by the functional requirements of this chapter.
+
+**20.2.1** A ship should remain under control or enter a fallback state during and following a fire event in any single compartment that is directly linked to the control of the ship.
+
+**20.2.2** A fire which is limited to a single compartment that does not have a direct link to the control of the ship, should not cause a loss of control or lead to a fallback state.
+
+**20.2.3** Means should be provided to detect, confirm, and locate a fire incident.
+
+- **EP 1:** All alarms related to fire safety systems should be routed to control station(s).
+- **EP 2:** Means for timely detection of a fire should be provided in all spaces with a fire risk.
+- **EP 3:** An operator should be made aware of the detection and location of a fire along with the status of, and any actions taken by, fire protection systems.
+- **EP 4:** After a fire detection alarm is activated, means should be provided to confirm a fire using a different detection source.
+- **EP 5:** If alarm signals are not acknowledged, a secondary alarm should be automatically activated at control station(s) and throughout the ship.
+- **EP 6:** After detection and confirmation of the fire, means should be provided to locate the seat of fire, so that the most appropriate fire-extinguishing means may be activated.
+
+**20.2.4** Means should be provided to enable the appropriate use of fire-extinguishing systems, taking into account possible human presence.
+
+- **EP 1:** Information and instructions in relation to fire safety should be provided to any personnel boarding the ship.
+- **EP 2:** Fire-extinguishing systems should be able to be safely isolated and verified prior to compartment access.
+- **EP 3:** Fire-extinguishing systems should provide onboard indication and warning prior to, and during, activation.
+- **EP 4:** The stability of the ship should be monitored during any fire-fighting operation.
+
+**20.2.5** Means should be provided to monitor and assess fire growth and fire-fighting effectiveness during and after fire.
+
+- **EP 1:** Means should be provided to assess any smoke development.
+- **EP 2:** Means should be provided to assess the temperature development in spaces adjacent to the compartment affected by the fire.
+
+**20.2.6** Means should be provided to enable the remote and onboard control of all active fire protection measures, including containment measures.
+
+- **EP 1:** All active fire protection measures should be individually controllable, allowing activation, deactivation, and status monitoring at control station(s).
+- **EP 2:** Means should be available to detect fire protection systems related faults and provide indication at control station(s).
+
+**20.2.7** Means should be provided to facilitate an intervention from external fire responders.
+
+- **EP 1:** Procedures should be in place to transmit any relevant information and data to external fire responders during and following a fire incident.
+- **EP 2:** Means of communication between the external fire responders and the ship and ROC should be ensured during and following a fire incident.
+
+---
+
+## CHAPTER 22: SPECIAL MEASURES TO ENHANCE MARITIME SECURITY
+
+### 22.1 Goal
+The goal of this chapter is to ensure adequate security.
+
+### 22.2 Functional Requirements
+To achieve the above-mentioned goal, the ship and ROC should comply with the requirements of the special measures to enhance maritime security in SOLAS chapter XI-2 "Special Measures to Enhance Maritime Security" and the ISPS Code, as supplemented by the functional requirements of this chapter.
+
+**22.2.1** Means should be provided to enable the assessment of security effectiveness for autonomous and remotely operated systems.
+
+**22.2.2** The ship should be able to communicate and exchange security-related information with the ROC and, where appropriate, to flag State Administrations, Contracting Governments, port Authorities, port facilities and company upon request taking into account the sensitivity of the information and authorization to access security-sensitive information.
+
+**22.2.3** The use of autonomous security systems should not negatively impact on the:
+1. physical security;
+2. structural integrity;
+3. personnel protection systems;
+4. procedural policies including the Ship Security Plan (SSP);
+5. radio and telecommunication systems including computer systems and networks; and
+6. any other areas that may, if damaged or used for illicit observation, pose a risk to persons, property, or operations on board the ship.
+
+**22.2.4** In the event of the security of a ROC being compromised, measures and procedures should be in place to ensure that this does not subsequently impact the security of a remotely operated or autonomous ship.
+
+- **EP 1:** There should be a separate mechanism for safely isolating and shutting down communications and control when the security of the ROC has been compromised.
+- **EP 2:** The ship should either enter a predefined fallback state until secure communications can be established with a secure ROC or, if available, control can be assumed at a separate control location, which may include the ship itself.
+- **EP 3:** Communications between a ROC experiencing an incident, or having experienced an incident, and the ship should only be reestablished once the security of the ROC has been ensured and validated.
+- **EP 4:** Procedures should be documented in the SSP, with plans in place to state where control will be assumed, and how communications will be reestablished.
+
+**22.2.5** Measures and procedures should be in place onboard a remotely operated or autonomous ship to ensure that outcomes in the event of a security incident are not less than that of a conventional ship, considering the safety of any crew, other ships and the marine environment.
+
+- **EP 1:** An appropriate level of communication between the ship and the ROC should be maintained during and following a security event onboard, or impacting upon, a ship.
+- **EP 2:** Systems should allow for coordination between the ship and third-party responders, and should provide sufficient information to ensure the safety of external responders, other ships, and the marine environment.
+- **EP 3:** Sufficient means should be included in the design and implementation of communication systems such that reasonably foreseeable security incidents would not result in damage to, or compromise of, all systems.
+- **EP 4:** In the event communication is lost following a security incident, the ship may need to enter an appropriate fallback state and be capable of maintaining that state during and following the event to the degree necessary.
+
+**22.2.6** Means should be provided to implement the requirements of the Ship Security Plan meeting the requirements laid out in the ISPS Code. The security of the ship should not be compromised by the use of autonomous and remotely operated systems.
+
+- **EP 1:** The role of remote operators, and those with responsibilities that have been transferred from the ship, should be required to be addressed in the SSP requirements under the ISPS Code, section A/9.4.
+- **EP 2:** The SSP should be stored such that duly authorized personnel required to take action are able to access it at any time.
+- **EP 3:** Record of activities addressed in the SSP should be stored such that duly authorized personnel required to access and amend them are able to do so at any time.
+
+**22.2.7** Means should be implemented to prevent unauthorized access to autonomous and remotely operated ships, to ensure the security of the ship, its cargo and onboard personnel.
+
+- **EP 1:** Systems should be able to detect physical intrusion by unauthorized personnel.
+- **EP 2:** Systems should be able to detect physical attacks on the ship during its voyage.
+- **EP 3:** Systems and processes should be able to detect cyber intrusion or interference.
+- **EP 4:** Means should be provided to control access to the ship, as well as the embarkation of persons and their effects.
+- **EP 5:** Systems deployed to serve security purposes should themselves be secure, resilient to attempts to compromise them, and exchange information in such a way that it does not compromise the security of the data.
+
+**22.2.8** Where responsibilities are transferred from onboard crew to remote operators, they should be considered to be bound by the requirements of the ISPS Code.
+
+- **EP 1:** Relevant shore-based persons should be required to take part in training, drills and exercises as laid out in the ISPS Code.
+- **EP 2:** Records of the activities laid out in the ISPS Code, section A/10.1, should include the involvement of remote operators.
+- **EP 3:** When conducting ship security assessments, identification of weaknesses, including human factors, in the infrastructure, policies and procedures should consider remote operators.
+
+---
+
+## CHAPTER 23: SEARCH AND RESCUE
+
+### 23.1 Goal
+The goal of this chapter is to ensure that the duties and tasks regarding Search and Rescue are fulfilled.
+
+### 23.2 Functional requirements
+To achieve the above-mentioned goal, a master should comply with all relevant requirements in SOLAS for providing assistance to persons in distress, and as provided in the functional requirements of this chapter and applicable international law.
+
+**23.2.1** A MASS and its associated ROC should be provided with a ship specific plan and procedures which enable the master to provide assistance to persons in distress when obligated to do so.
+
+- **EP 1:** Rescue equipment provided onboard should be able to be safely used independently of the presence of crew.⁴
+- **EP 2:** Persons retrieved onboard should be able to be safely accommodated on board until such time as they can be delivered to a place of safety.
+- **EP 3:** Persons retrieved onboard should be provided with information and arrangements to communicate with the ROC and access any arrangements provided for their safety.
+
+⁴ *According to SOLAS regulation III/I7-1 and the Guidelines for the Development of Plans and Procedures for the Recovery of Persons from the Water (MSC.1/Circ.1447), the Guide to Recovery Techniques (MSC.1/Circ.1182) and the Guide for Cold Water Survival (MSC.1/Circ.1185/Rev.1).*
+
+---
+
+## CHAPTER 24: CARRIAGE OF CARGOES
+
+### 24.1 Goal
+The goal of this chapter is to provide for the carriage of cargoes in a manner that ensures that the ship, persons on board and the environment are safe.
+
+### 24.2 Functional requirements
+To achieve the above-mentioned goal, the ship should comply with the requirements of SOLAS chapters VI and VII and relevant regulations relating to the carriage of cargoes, as supplemented by the functional requirements of this chapter.
+
+**24.2.1** Means should be provided to enable for the safe carriage of cargo involving autonomous or remote operated systems and functions.
+
+- **EP 1:** Consideration should be given to the need for any special arrangements regarding:
+  1. transfer of cargo information;
+  2. cargo handling, stowing and securing;
+  3. cargo monitoring; and
+  4. emergency response.
+
+---
+
+## CHAPTER 25: ANCHORING, TOWING AND MOORING
+
+### 25.1 Goal
+The goal of this chapter is to ensure safe and secure anchoring, towing and mooring operations.
+
+### 25.2 Functional Requirements
+To achieve the above-mentioned goal, the ship should comply with the functional requirements of this chapter. It should be noted that these functions may be treated independently from each other.
+
+**25.2.1** Remotely operated or autonomous anchoring, towing and mooring arrangements should allow the safe conduct of these operations.
+
+**25.2.2** Where anchoring, towing and mooring operations involve a ROC, the remote operator should have sufficient information, oversight and control to enable safe and effective operations with due consideration to interactions with any third parties, infrastructure and/or involved personnel.
+
+**25.2.3** The emergency towing arrangements in SOLAS regulation II-1/3-4 should be considered as applying to all ships, and means should be provided to enable remote or autonomous activation where no alternative means of rapid deployment are available.
+
+**25.2.4** Anchoring arrangements should be able to be activated remotely or autonomously during fallback states and in emergency situations.
+
+---
+
+## CHAPTER 26: MACHINERY AND ELECTRICAL INSTALLATIONS
+
+### 26.1 Goal
+The goal of this chapter is to provide for safe and reliable machinery and electrical installations.
+
+### 26.2 Functional Requirements
+To achieve the above-mentioned goal, the ship should comply with the requirements for machinery and electrical installations in SOLAS, as supplemented by the functional requirements of this chapter.
+
+**26.2.1** Machinery and electrical installations should be capable of delivering the required functionality to ensure their availability, including backup functions, sufficient for the autonomous and remotely controlled functions to be maintained during normal operation, fallback states and emergency situations, taking into account connectivity and remote control.
+
+**26.2.2** Electrical power production and distribution should be capable of maintaining the ship in normal operation and fallback states, and ensuring that essential systems remain operational in emergency situations for the period(s) specified by SOLAS.
+
+**26.2.3** Machinery and electrical installations should be able to support predefined fallback states, and be fault tolerant to connectivity being lost or below an acceptable threshold.
+
+**26.2.4** Monitoring should be provided to assess system robustness, reliability and effectiveness.
+
+**26.2.5** Measures should be provided to prevent the activation of machinery or electrical systems by remote or autonomous systems when operated or serviced by authorized persons on board, and to ensure the safe reactivation upon completion.
+
+**26.2.6** Measures should be provided to detect machinery or electrical system malfunctions or failures to maintain safe operation in normal and emergency situations.
+
+**26.2.7** Measures to ensure availability and resilience should be provided according to the mode of operation to respond to machinery or electrical system malfunctions and failures.
+
+---
+
+
+
